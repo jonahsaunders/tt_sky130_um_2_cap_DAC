@@ -1,6 +1,11 @@
 # Suarez serial two-capacitor DAC
 
+[![GDS and precheck](https://github.com/jonahsaunders/tt_sky130_um_2_cap_DAC/actions/workflows/gds.yaml/badge.svg)](https://github.com/jonahsaunders/tt_sky130_um_2_cap_DAC/actions/workflows/gds.yaml)
+[![Documentation](https://github.com/jonahsaunders/tt_sky130_um_2_cap_DAC/actions/workflows/docs.yaml/badge.svg)](https://github.com/jonahsaunders/tt_sky130_um_2_cap_DAC/actions/workflows/docs.yaml)
+
 An editable, physically verified SKY130 analog macro prepared for an experimental Tiny Tapeout submission. Built with IIC OSIC Tools and drawn using KiStack's schematic workflow. The conversion core contains two equal capacitor banks; its output buffer adds a separate compensation capacitor. The final qualification report records the exact GDS, all-code linearity, operating corners, mismatch, stability, startup, noise, and limits. Precise absolute voltage requires offset/gain calibration.
+
+[Open the published layout viewer](https://jonahsaunders.github.io/tt_sky130_um_2_cap_DAC/). The viewer workflow requires GitHub Pages to be enabled under **Settings → Pages**, with **GitHub Actions** as its publishing source. For a fork, enable that setting and start a fresh `gds` workflow run. If a retry reports multiple artifacts named `github-pages`, start a new run with **Run workflow** instead of rerunning the failed attempt.
 
 ## Open the design
 
