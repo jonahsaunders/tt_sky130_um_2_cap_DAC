@@ -44,8 +44,8 @@
     },
     {
       "path": "docs/images/schematic_overview.png",
-      "bytes": 154116,
-      "sha256": "a396c22ed8765e281beb159d245b1f8f8ee05f152cdaf7987c5cdcdf5fb4e2c4"
+      "bytes": 153967,
+      "sha256": "c0b23d9968b8000036a9f521146291a3ea677232a8026620c3d09e09758b14c6"
     },
     {
       "path": "docs/images/stability_settling.png",
@@ -219,8 +219,8 @@
     },
     {
       "path": "schematic/render/buffer.png",
-      "bytes": 70574,
-      "sha256": "d88404112476ec04c5ca517f46f78b8ed06f98cb4e1ffd4040b6a0d26dc48762"
+      "bytes": 70401,
+      "sha256": "b6560abc35a9d090a37644caf3cab7aecee4f94862e16bfc3f12911ed1bc7fcd"
     },
     {
       "path": "schematic/render/control.png",
@@ -230,12 +230,12 @@
     {
       "path": "schematic/render/core.png",
       "bytes": 52526,
-      "sha256": "3a7ba9aeaae2731f8eff1a3ee85383e9f37fbc63c113ba686adfd8214ecb8120"
+      "sha256": "a5b8120690b8776dc8e5c82ea7eea7bd14f1ec39294edc5182e855acb6bce803"
     },
     {
       "path": "schematic/render/suarez_dac.svg",
-      "bytes": 526905,
-      "sha256": "5aa766d50815cec234cebf55ca66461c28d7a02ec9cfc3aae0a16b676ac9283d"
+      "bytes": 526148,
+      "sha256": "37629b699c63e7a3767858850804429729463084dc6253d020952ee753c874b9"
     },
     {
       "path": "schematic/Sky130.kicad_sym",
@@ -249,18 +249,18 @@
     },
     {
       "path": "schematic/suarez_dac.kicad_sch",
-      "bytes": 90258,
-      "sha256": "47d72a8f07c731afe4f8319cee4bca21fa0318ad77ee110069770b520dfcf615"
+      "bytes": 89864,
+      "sha256": "b3b8a9217dd8cc0f41ef0cb0f98987fd51100c02483267c994b839963399e1a2"
     },
     {
       "path": "schematic/suarez_dac.pdf",
-      "bytes": 169311,
-      "sha256": "90ea1714f6708c5a27bbad58356e431c2ae0cdb2d3cec438fc3499c311b05582"
+      "bytes": 169202,
+      "sha256": "9a48d57c1ad6e532b14628f6f14a472760a4647d8386bed59e08cebbe58df081"
     },
     {
       "path": "schematic/suarez_dac.png",
-      "bytes": 221198,
-      "sha256": "40b14cecc6643d74b2808999a73745738041c18127d81c2646d85872d229f65e"
+      "bytes": 221075,
+      "sha256": "e8b9943c9f99c53c5951f00a8851c0165e632d4c6155b03f172d8f3cf190334b"
     },
     {
       "path": "schematic/sym-lib-table",
@@ -294,8 +294,8 @@
     },
     {
       "path": "scripts/build_schematic.py",
-      "bytes": 15446,
-      "sha256": "ebc2b5a7351593efc6760fbdf83974d4aa1d13b668b9be7849fc9980cb70398e"
+      "bytes": 15684,
+      "sha256": "0bfd12c9ab3378600ec35e9246e28a930f3787d090ddaefbc1bcb4a93a75ab42"
     },
     {
       "path": "scripts/check_layout.py",
@@ -559,8 +559,8 @@
     },
     {
       "path": "verification/provenance.json",
-      "bytes": 2910,
-      "sha256": "94333ee1ff99652992496c352dded5a111544356dbcbba39dcfafd6c9260b4a2"
+      "bytes": 3106,
+      "sha256": "cd43970adcf9e83c4ba6267d9a98e8a497628d59b0b0f60c42f0c6b947f5fcb6"
     },
     {
       "path": "verification/qualification.png",
@@ -575,17 +575,17 @@
     {
       "path": "verification/schematic_connectivity.json",
       "bytes": 536,
-      "sha256": "b8fa17fc46ba33413e3fb6094d02047d74960e4a49c3bb0fc58b26038fff2346"
+      "sha256": "baabb125f89104b255a3fae1c507ed1c73ff504d89f64bb24e08f7db6831b5fc"
     },
     {
       "path": "verification/schematic_erc.rpt",
       "bytes": 357,
-      "sha256": "2f21122fddd00dae8f3e9adbd981084dc428cf6a374d8861d7bd82d912af990d"
+      "sha256": "42ba3ad2fc64b2763c34d4fa09080925e957764fe6bcc4cdca8fbb77a901bec5"
     },
     {
       "path": "verification/schematic_netlist.xml",
-      "bytes": 47262,
-      "sha256": "f1e7ae30ba8cd9315305d0f35099bb3244a371996a504d139f1e6cf5192e4ff4"
+      "bytes": 47268,
+      "sha256": "89d085c8b2fa466c82697ec3acf4258a3dc980517052e113454644ad334486b2"
     },
     {
       "path": "verification/signoff/ac_ff_1.62_-40.0_20.0_0.2_rz14_cc26_loop.spice",

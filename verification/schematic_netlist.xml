@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\jonah\Documents\Codex\2026-10-02\how-x20\work\tt_dac_repo\schematic\suarez_dac.kicad_sch</source>
-    <date>2026-10-02T14:51:23</date>
+    <source>C:\Users\jonah\Documents\Codex\2026-10-02\do\work\tt_sky130_um_2_cap_DAC\schematic\suarez_dac.kicad_sch</source>
+    <date>2026-10-02T18:41:11</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -50,7 +50,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>144b3cd6-113b-4045-a3ae-b80b68aa2f96</tstamps>
+      <tstamps>6be89a94-c41d-48f2-aa42-69bb228a2f7a</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -86,7 +86,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa0cfba7-0797-4e92-8cc7-964373df0cc5</tstamps>
+      <tstamps>cc184bc9-485e-4f5c-aea3-4a33d00801dd</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -122,7 +122,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>44c2f2d5-0d9f-4b13-8744-0208b5cec033</tstamps>
+      <tstamps>e6bc963b-8eae-4d1b-8b7a-540f1c53ac38</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -156,7 +156,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>288e6992-e505-42bf-ac72-8e29950b2a21</tstamps>
+      <tstamps>6332deea-7d65-4ea5-ab2b-83cad0c25200</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -191,7 +191,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3b9f4616-4fb6-450f-897e-5a74354d4a4c</tstamps>
+      <tstamps>48466b6c-d3a5-4edd-9e2c-3b0ed6ac41c6</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -226,7 +226,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3c4a850a-a805-4dc4-aa0a-31cd7293ca12</tstamps>
+      <tstamps>b8c973a7-a569-4f33-870d-a243697bbc1d</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -261,7 +261,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>11c6c7d5-846f-4013-b098-04f629530f1f</tstamps>
+      <tstamps>ce1d1c9e-6821-4a74-9664-4f6ef19a995f</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -296,7 +296,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9a698118-f712-4346-af00-97da89a93a89</tstamps>
+      <tstamps>8043944c-666b-4388-8689-31f4574ba416</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -331,7 +331,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>81525f9d-fe4b-4f16-b3e3-bc56b960c9e0</tstamps>
+      <tstamps>21566de9-f026-4106-bc7f-a7a8290fed23</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -366,7 +366,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>db5694cf-9af2-4d0a-a023-ac50ccc5e9bb</tstamps>
+      <tstamps>a2813827-58b5-4b5f-b782-aecca285e36d</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -401,7 +401,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>39b415d0-5b05-47ad-88d7-5edf5dcc14f4</tstamps>
+      <tstamps>74aa51b0-dc3e-455f-9c03-08fc1bcdc476</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -436,7 +436,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7fedb0d2-40cd-4f80-9ed3-ee9459a3aac8</tstamps>
+      <tstamps>0a9e55da-4057-42b6-bca7-4a49d0b9c0cd</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -471,7 +471,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a481817c-25fc-4662-9cbd-0ed3b498f3b7</tstamps>
+      <tstamps>cdc0fd25-0c09-4987-9081-7eb7c1879f21</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -506,7 +506,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>154e14c2-5b55-4c7a-940b-c9a0b762eae7</tstamps>
+      <tstamps>fc1f36bd-5a64-4303-82fd-3e06d433a426</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -541,7 +541,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>875f27e6-b1af-4624-8298-3644ed44ce3c</tstamps>
+      <tstamps>ffd0a941-bde4-47ac-82d9-8789075f6d35</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -576,7 +576,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bae492d8-bcb9-4eda-9b90-e96b4a5cd7bb</tstamps>
+      <tstamps>af9d3aed-346e-4ddb-98eb-a9977c018f0e</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -611,7 +611,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7e3f620f-4331-48ef-92d5-28d931e803d7</tstamps>
+      <tstamps>95de896f-66e2-4a68-9a53-269a0532b2fa</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -646,7 +646,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2194eef6-6bac-4729-96ea-1ef27869d638</tstamps>
+      <tstamps>fd85037f-44b6-4b41-b530-bb03a4ce7634</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -681,7 +681,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>15348c2f-ae81-45e4-842a-10b4f7164468</tstamps>
+      <tstamps>1b35df1b-35af-44da-a89e-97f2b4ac92ff</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -705,7 +705,7 @@
         <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="Sky130" part="NMOS_R3" description=""/>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
       <property name="Role" value="MN_MIRROR"/>
       <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
       <property name="W_um" value="4"/>
@@ -716,13 +716,13 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cf9ba321-ee26-4f01-a9ea-714fd254a6d2</tstamps>
+      <tstamps>8417bebf-1754-4814-bdf0-cf9433fd0172</tstamps>
       <units>
         <unit name="A">
           <pins>
+            <pin num="2"/>
             <pin num="1"/>
             <pin num="3"/>
-            <pin num="2"/>
           </pins>
         </unit>
       </units>
@@ -740,7 +740,7 @@
         <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <libsource lib="Sky130" part="NMOS_R3" description=""/>
       <property name="Role" value="MN_LOAD"/>
       <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
       <property name="W_um" value="4"/>
@@ -751,13 +751,13 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8cc342d9-3b7f-4253-b154-d4cf64706517</tstamps>
+      <tstamps>7e4a4c57-73f4-4282-b9fe-fcec2e3a4dd4</tstamps>
       <units>
         <unit name="A">
           <pins>
-            <pin num="2"/>
             <pin num="1"/>
             <pin num="3"/>
+            <pin num="2"/>
           </pins>
         </unit>
       </units>
@@ -786,7 +786,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>51675c7f-6e0c-4faa-bf0f-1059ac5525a5</tstamps>
+      <tstamps>3f356212-ad3b-4180-9c52-144c3e731e78</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -821,7 +821,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1d882925-4ebf-4e31-abe8-43544d3e470c</tstamps>
+      <tstamps>aa62beee-60f5-45f5-ae20-19c82791d146</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -858,7 +858,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1ea16c11-5121-4f37-a144-704605504555</tstamps>
+      <tstamps>f4e01057-431f-4a2a-948d-eec832435fd0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -894,7 +894,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5d7c7f70-f141-4694-9422-37969ebb27f8</tstamps>
+      <tstamps>50f0deb7-d564-4071-82f7-41f75dffa987</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -930,7 +930,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8b5b6c97-850c-42ff-a631-c6a3d9755331</tstamps>
+      <tstamps>f29a6947-55d4-46a0-b97f-e4c888e1b7f2</tstamps>
       <units>
         <unit name="A">
           <pins>
