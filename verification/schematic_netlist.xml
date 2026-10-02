@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>C:\Users\jonah\Documents\Codex\2026-10-02\how-x20\work\tt_dac_repo\schematic\suarez_dac.kicad_sch</source>
-    <date>2026-10-02T14:38:58</date>
+    <date>2026-10-02T14:51:23</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Suarez two-capacitor DAC</title>
         <company>SKY130 / Tiny Tapeout</company>
-        <rev>0.2</rev>
+        <rev>0.3</rev>
         <date/>
         <source>suarez_dac.kicad_sch</source>
         <comment number="1" value=""/>
@@ -50,7 +50,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>250b4051-81d7-43fd-b756-df7fe59041d4</tstamps>
+      <tstamps>144b3cd6-113b-4045-a3ae-b80b68aa2f96</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -86,7 +86,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fadb1f26-ea04-42bf-b2fe-196e8443572a</tstamps>
+      <tstamps>aa0cfba7-0797-4e92-8cc7-964373df0cc5</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -122,7 +122,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7a7d8f52-7c97-4e87-99a9-b8ed0b83007d</tstamps>
+      <tstamps>44c2f2d5-0d9f-4b13-8744-0208b5cec033</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -156,7 +156,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b531bd39-f5c9-4114-9570-4a9e49197feb</tstamps>
+      <tstamps>288e6992-e505-42bf-ac72-8e29950b2a21</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -191,7 +191,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e95ea0fe-d75f-4e12-9e4c-6e98708aeab4</tstamps>
+      <tstamps>3b9f4616-4fb6-450f-897e-5a74354d4a4c</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -226,7 +226,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d9e9ab3d-1c2c-40d4-b0f7-1e933587d90b</tstamps>
+      <tstamps>3c4a850a-a805-4dc4-aa0a-31cd7293ca12</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -261,7 +261,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>06da10e9-31e0-4625-ac7c-d50e83e285b3</tstamps>
+      <tstamps>11c6c7d5-846f-4013-b098-04f629530f1f</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -296,7 +296,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5c928364-58a0-4093-a424-81edc4730c69</tstamps>
+      <tstamps>9a698118-f712-4346-af00-97da89a93a89</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -331,7 +331,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d4048b0e-cef3-4db7-b038-84d1406db477</tstamps>
+      <tstamps>81525f9d-fe4b-4f16-b3e3-bc56b960c9e0</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -366,7 +366,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>849e66a7-1838-4d4a-9c62-5ea4b2d265d4</tstamps>
+      <tstamps>db5694cf-9af2-4d0a-a023-ac50ccc5e9bb</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -401,7 +401,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d3c68c85-ebc2-496e-8b51-985bab795d18</tstamps>
+      <tstamps>39b415d0-5b05-47ad-88d7-5edf5dcc14f4</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -436,7 +436,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bf71b9b4-6cd0-482b-bf7f-5afaf46dc4ce</tstamps>
+      <tstamps>7fedb0d2-40cd-4f80-9ed3-ee9459a3aac8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -471,7 +471,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f4a15077-5b0c-40ca-8b8e-b5dda7d901c3</tstamps>
+      <tstamps>a481817c-25fc-4662-9cbd-0ed3b498f3b7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -506,7 +506,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c484e380-bc07-4fe2-bb5b-78e05fc0d4a2</tstamps>
+      <tstamps>154e14c2-5b55-4c7a-940b-c9a0b762eae7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -541,7 +541,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>46020980-458b-4f85-9169-d83acebd1c34</tstamps>
+      <tstamps>875f27e6-b1af-4624-8298-3644ed44ce3c</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -576,7 +576,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ce9f4da6-fa01-4e85-8965-581fca2a3bdf</tstamps>
+      <tstamps>bae492d8-bcb9-4eda-9b90-e96b4a5cd7bb</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -611,7 +611,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>22151dbf-95f7-4da1-b755-e6e769d23c85</tstamps>
+      <tstamps>7e3f620f-4331-48ef-92d5-28d931e803d7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -646,7 +646,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>95e49ffa-36ac-4ee5-b94a-0ae1f98cf0c9</tstamps>
+      <tstamps>2194eef6-6bac-4729-96ea-1ef27869d638</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -681,7 +681,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f6351a03-d396-40d0-ad42-763e7c489d9f</tstamps>
+      <tstamps>15348c2f-ae81-45e4-842a-10b4f7164468</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -716,7 +716,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e2feccac-869b-478f-a7ad-a82fb0c5581a</tstamps>
+      <tstamps>cf9ba321-ee26-4f01-a9ea-714fd254a6d2</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -751,7 +751,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a5abc2ba-112c-4e31-af93-9448f4c80d57</tstamps>
+      <tstamps>8cc342d9-3b7f-4253-b154-d4cf64706517</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -786,7 +786,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>17f3b651-7577-4b38-a253-34896753f1ee</tstamps>
+      <tstamps>51675c7f-6e0c-4faa-bf0f-1059ac5525a5</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -821,7 +821,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8deb4b3f-454b-456a-8965-824808d8ac8d</tstamps>
+      <tstamps>1d882925-4ebf-4e31-abe8-43544d3e470c</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -846,7 +846,7 @@
         <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="Sky130" part="R_Small_US_H" description=""/>
+      <libsource lib="Sky130" part="R_Small_US" description=""/>
       <property name="Role" value="RB1"/>
       <property name="PDK_Model" value="sky130_fd_pr__res_xhigh_po_0p35"/>
       <property name="W_um" value="0.35"/>
@@ -858,7 +858,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>607f4c35-110b-4922-947f-33d2a9bd24be</tstamps>
+      <tstamps>1ea16c11-5121-4f37-a144-704605504555</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -882,7 +882,7 @@
         <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="Sky130" part="R_Small_US_H" description=""/>
+      <libsource lib="Sky130" part="R_Small_US" description=""/>
       <property name="Role" value="RB2"/>
       <property name="PDK_Model" value="sky130_fd_pr__res_xhigh_po_0p35"/>
       <property name="W_um" value="0.35"/>
@@ -894,7 +894,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>17e61449-ad90-459f-9bc7-68edec9c0d66</tstamps>
+      <tstamps>5d7c7f70-f141-4694-9422-37969ebb27f8</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -930,7 +930,7 @@
       <property name="exclude_from_bom"/>
       <property name="exclude_from_board"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3f1370da-512c-462f-8360-d576afe85989</tstamps>
+      <tstamps>8b5b6c97-850c-42ff-a631-c6a3d9755331</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1058,6 +1058,20 @@
         <pin num="1" name="D" type="passive"/>
         <pin num="2" name="G" type="passive"/>
         <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="R_Small_US">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Sky130" part="R_Small_US_H">

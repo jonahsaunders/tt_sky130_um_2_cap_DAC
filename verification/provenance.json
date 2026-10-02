@@ -39,7 +39,7 @@
       "url": "https://tinytapeout.com/specs/analog/"
     }
   ],
-  "schematic_review": "Revision 0.2: connected reference selectors, matched SAMPLE/HOLD banks, complete bias and amplifier, visible feedback and compensation, and grouped phase drivers. A3 page and detail renders reviewed. Zero ERC violations; all 72 connections, 26 device property sets, and D/G/S symbol pin names checked against design.json.",
+  "schematic_review": "Revision 0.3: conventional KiCad GND/VDD/PWR_FLAG geometry with zero-length power pins, downward grounds and upward supplies, centered labels, vertical bias resistors, shared capacitor/inverter ground rails, and separate flags beside the harness supply entry. Connected signal path, feedback and compensation preserved. A3 page and detail renders reviewed. Zero ERC violations; all 72 connections, 26 device property sets, and D/G/S symbol pin names checked against design.json.",
   "maskhint_note": "The narrow-resistor PCells need a 1.27 um URPM mask hint. Official precheck imports GDS with gds maskhints yes; this preserves that implant and all final prechecks pass. Do not discard mask hints on import.",
   "scope": "Published GitHub design package and model-based qualification; no shuttle submission, purchase, fabrication, or measured silicon.",
   "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",

@@ -26,12 +26,19 @@ def make_symbol(name,pins,draw,ref='M',power=False):
     sympins[name]={num:(x,y) for num,nm,x,y,ang,kind in pins}
     pp=[]
     for num,nm,x,y,ang,kind in pins:
-        pp.append(f'(pin {kind} line (at {x} {y} {ang}) (length 2.54) (name {q(nm)} (effects (font (size 1.0 1.0)))) (number {q(num)} (effects (font (size 1.0 1.0)))))')
+        # KiCad power symbols use zero-length pins; a normal device pin would
+        # draw an unwanted stem through the power graphic.
+        length=0 if power else 2.54
+        pp.append(f'(pin {kind} line (at {x} {y} {ang}) (length {length}) (name {q(nm)} (effects (font (size 1.0 1.0)))) (number {q(num)} (effects (font (size 1.0 1.0)))))')
     power_tag='(power)' if power else ''
+    ref_at='0 -6.35' if power else '5.08 3.81'
+    value_at=('0 -3.81' if name=='VGND' else '0 3.81') if power else '5.08 -7.62'
+    ref_hide=' (hide yes)' if power else ''
+    value_hide=' (hide yes)' if name=='PWR_FLAG' else ''
     s=f'''(symbol "Sky130:{name}" {power_tag} (pin_names (offset 0) hide) (pin_numbers hide)
     (exclude_from_sim no) (in_bom no) (on_board no)
-    (property "Reference" "{ref}" (at 5.08 3.81 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "{name}" (at 5.08 -7.62 0) (effects (font (size 1.27 1.27))))
+    (property "Reference" "{ref}" (at {ref_at} 0) (effects (font (size 1.27 1.27)){ref_hide}))
+    (property "Value" "{name}" (at {value_at} 0) (effects (font (size 1.27 1.27)){value_hide}))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Datasheet" "https://skywater-pdk.readthedocs.io/" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (symbol "{name}_0_1" {draw}) (symbol "{name}_1_1" {' '.join(pp)}))'''
@@ -66,26 +73,32 @@ rdraw=line([(0,1.27),(.635,1.016),(-.635,.508),(.635,0),(-.635,-.508),(.635,-1.0
 make_symbol('R_Small_US',[('1','1',0,3.81,270,'passive'),('2','2',0,-3.81,90,'passive')],rdraw,ref='R')
 rdraw_h=line([(-1.27,0),(-1.016,.635),(-.508,-.635),(0,.635),(.508,-.635),(1.016,.635),(1.27,0)])
 make_symbol('R_Small_US_H',[('1','1',-3.81,0,0,'passive'),('2','2',3.81,0,180,'passive')],rdraw_h,ref='R')
-make_symbol('VGND',[('1','VGND',0,0,90,'power_in')],line([(0,0),(0,-1.27)])+line([(-1.27,-1.27),(1.27,-1.27)])+line([(-.889,-1.778),(.889,-1.778)])+line([(-.508,-2.286),(.508,-2.286)]),ref='#PWR',power=True)
-make_symbol('VDPWR',[('1','VDPWR',0,0,270,'power_in')],line([(0,0),(0,1.27)])+line([(-.762,1.27),(0,2.54),(.762,1.27),(-.762,1.27)]),ref='#PWR',power=True)
-make_symbol('PWR_FLAG',[('1','pwr',0,0,90,'power_out')],line([(0,0),(0,1.27),(-.762,1.778),(0,2.286),(.762,1.778),(0,1.27)]),ref='#FLG',power=True)
+# Geometry follows KiCad's standard GND, VDD and PWR_FLAG symbols; preserve
+# the harness net names VGND / VDPWR in this self-contained library.
+make_symbol('VGND',[('1','VGND',0,0,270,'power_in')],line([(0,0),(0,-1.27),(1.27,-1.27),(0,-2.54),(-1.27,-1.27),(0,-1.27)]),ref='#PWR',power=True)
+make_symbol('VDPWR',[('1','VDPWR',0,0,90,'power_in')],line([(-.762,1.27),(0,2.54)])+line([(0,2.54),(.762,1.27)])+line([(0,0),(0,2.54)]),ref='#PWR',power=True)
+make_symbol('PWR_FLAG',[('1','pwr',0,0,90,'power_out')],line([(0,0),(0,1.27),(-1.016,1.905),(0,2.54),(1.016,1.905),(0,1.27)]),ref='#FLG',power=True)
 
 pwr_count=0
 def inst(sym,x,y,ref,value,extra=None,visval=True):
     x,y=snap(x),snap(y)
     iid=uid(); props=[]
     for k,v,px,py,visible in [('Reference',ref,x+5,y-3.8,not ref.startswith('#')),('Value',value,x+5,y+7.6,visval),('Footprint','',x,y,False),('Datasheet','https://skywater-pdk.readthedocs.io/',x,y,False)]+[(k,v,x,y,False) for k,v in (extra or {}).items()]:
+        justify='left'
         if sym in ['C_Small','R_Small_US'] and k=='Reference': px,py=x+3,y-2
         if sym in ['C_Small','R_Small_US'] and k=='Value': px,py=x+3,y+2
+        if (extra or {}).get('Role') in ['RB1','RB2'] and k in ['Reference','Value']:
+            px=x-3;justify='right'
         if sym in ['C_Small_H','R_Small_US_H'] and k=='Reference': px,py=x-2,y-5
         if sym in ['C_Small_H','R_Small_US_H'] and k=='Value': px,py=x-4,y+4
-        if sym=='VGND' and k=='Value':px,py=x+2,y+3
-        if sym=='VDPWR' and k=='Value':px,py=x+2,y-3
+        if sym=='VGND' and k=='Value':px,py=x,y+3.81;justify=None
+        if sym=='VDPWR' and k=='Value':px,py=x,y-3.81;justify=None
         if sym.endswith('_H3') and k=='Reference':px,py=x+7,y-3
         if sym.endswith('_R3') and k=='Reference':px,py=x-12,y-3.8
         if sym.endswith('_R3') and k=='Value':px,py=x-18,y+7.6
         fs=1.05 if sym.endswith('3') and k=='Value' else 1.27
-        props.append(f'(property {q(k)} {q(v)} (at {px} {py} 0) (effects (font (size {fs} {fs})) (justify left)'+('' if visible else ' (hide yes)')+'))')
+        alignment=f' (justify {justify})' if justify else ''
+        props.append(f'(property {q(k)} {q(v)} (at {px} {py} 0) (effects (font (size {fs} {fs}))'+alignment+('' if visible else ' (hide yes)')+'))')
     pieces.append(f'''(symbol (lib_id "Sky130:{sym}") (at {x} {y} 0) (unit 1)
       (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid {q(iid)})
       {' '.join(props)} {' '.join(f'(pin {q(n)} (uuid {q(uid())}))' for n in sympins[sym])}
@@ -97,7 +110,10 @@ def power(net,x,y,flag=False):
     inst(net,x,y,f'#PWR{pwr_count:03}',net,visval=True)
     if flag:
         pwr_count+=1
-        inst('PWR_FLAG',x,y,f'#FLG{pwr_count:03}','PWR_FLAG',visval=False)
+        # Put ERC source flags beside the rail entry, never over its symbol.
+        fx=snap(x+12.7)
+        wire((x,y),(fx,y))
+        inst('PWR_FLAG',fx,y,f'#FLG{pwr_count:03}','PWR_FLAG',visval=False)
 def mos(role,x,y,tg=False,horizontal=False,mirror=False):
     d=dev[role];sym='NMOS3' if 'nfet' in d['model'] else ('PMOS_TG3' if tg else 'PMOS3')
     if horizontal:sym='NMOS_H3' if 'nfet' in d['model'] else 'PMOS_H3'
@@ -150,7 +166,9 @@ label('HOLD',184,102)
 for role,x in [('C_SAMPLE',128),('C_HOLD',196)]:
     c=passive(role,'C_Small',x,150,'6.454 pF')
     path((x,102),c['1']);tap(x,102)
-    path(c['2'],(x,171));power('VGND',x,171)
+    path(c['2'],(x,171))
+path((128,171),(196,171))
+power('VGND',162,171);tap(162,171)
 text('C1 / C2: 16 MIM units per bank',23,161,1.05)
 text('Switches: N 1 / 0.15; P 2 / 0.35 LVT',23,171,1.05)
 
@@ -160,17 +178,18 @@ t=mos('MP_TAIL',270,82)
 po=mos('MP_OUT',350,82)
 for f in [b,t,po]:path(f['3'],(f['3'][0],55))
 path((b['3'][0],55),(po['3'][0],55));tap(t['3'][0],55)
-power('VDPWR',323,55,flag=True);tap(323,55)
+power('VDPWR',323,55);tap(323,55)
 path(b['1'],(b['1'][0],94),(224,94),(224,82),b['2'])
 tap(b['1'][0],94);tap(224,82)
 path((224,94),(336,94),(336,82),po['2'])
 path(t['2'],(259,t['2'][1]),(259,94));tap(259,94)
 label('BIAS',305,94)
-r1=passive('RB1','R_Small_US_H',248,46,'171 kR')
-r2=passive('RB2','R_Small_US_H',286,46,'171 kR')
-path((224,94),(224,46),r1['1']);tap(224,94)
-path(r1['2'],r2['1']);label('RBMID',264,46)
-path(r2['2'],(303,46));power('VGND',303,46)
+r1=passive('RB1','R_Small_US',b['1'][0],102,'171 kR')
+r2=passive('RB2','R_Small_US',b['1'][0],116,'171 kR')
+path((b['1'][0],94),r1['1'])
+path(r1['2'],r2['1'])
+path((b['1'][0],109),(228,109));tap(b['1'][0],109);label('RBMID',228,109)
+path(r2['2'],(b['1'][0],126));power('VGND',b['1'][0],126)
 
 # Inward-facing differential pair; HOLD enters from the conversion core.
 pp=mos('MP_INP',244,141)
@@ -214,8 +233,12 @@ for tag,x in [('H',40),('L',97),('S',154)]:
     gx=snap(x-11)
     path(p['2'],(gx,p['2'][1]),(gx,n['2'][1]),n['2'])
     path((gx,oy),(gx-8,oy));tap(gx,oy);label(dev['MN_INV_'+tag]['g'],gx-8,oy)
-    path(p['3'],(p['3'][0],199));power('VDPWR',p['3'][0],199)
-    path(n['3'],(n['3'][0],244));power('VGND',n['3'][0],244,flag=tag=='H')
+    path(p['3'],(p['3'][0],199));tap(p['3'][0],199)
+    path(n['3'],(n['3'][0],244));tap(n['3'][0],244)
+# Common rails make the inverter supplies explicit. Flags sit beside the
+# harness supply entry at the right, away from ground graphics and values.
+path((snap(40)+2.54,199),(193,199));power('VDPWR',193,199,flag=True)
+path((snap(40)+2.54,244),(193,244));power('VGND',193,244,flag=True)
 
 text('OPERATING SEQUENCE',15,259,1.5,True)
 text('Initialize: HIGH=0, LOW=1, SHARE=1 for 8 us. Then all phases off for 0.2 us.',15,265,1.12)
@@ -224,7 +247,7 @@ text('HIGH / LOW never overlap. LOW / SHARE overlap only during initialization. 
 text('Bodies: all NMOS -> VGND; all PMOS -> VDPWR. Body ties are explicit in SPICE / silicon.',15,283,1.02)
 
 sch=f'''(kicad_sch (version 20250114) (generator "eeschema") (uuid {q(root)})
-(paper "A3") (title_block (title "Suarez two-capacitor DAC") (rev "0.2") (company "SKY130 / Tiny Tapeout"))
+(paper "A3") (title_block (title "Suarez two-capacitor DAC") (rev "0.3") (company "SKY130 / Tiny Tapeout"))
 (lib_symbols {' '.join(lib)}) {' '.join(pieces)} (sheet_instances (path "/" (page "1"))))'''
 (P/'schematic/suarez_dac.kicad_sch').write_text(sch+'\n')
 library='(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor") '+ ' '.join(s.replace('"Sky130:','"') for s in lib)+')'

@@ -7,6 +7,6 @@
   "verified_device_properties": 26,
   "property_mismatches": [],
   "symbol_pin_mismatches": [],
-  "schematic_sha256": "d019d7b8d560bdc99030a533708af37eb4c2fb0ec1476d7305075c63f70a7419",
-  "exported_netlist_sha256": "2c5a89da8dc1d382830c591ec8dc8a6b2b99d53e058f184ea22aa253246a0f37"
+  "schematic_sha256": "47d72a8f07c731afe4f8319cee4bca21fa0318ad77ee110069770b520dfcf615",
+  "exported_netlist_sha256": "f1e7ae30ba8cd9315305d0f35099bb3244a371996a504d139f1e6cf5192e4ff4"
 }

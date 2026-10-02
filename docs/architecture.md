@@ -6,6 +6,8 @@
 
 The drawing follows the stored charge from left to right. The reference selectors feed C1, the SHARE switch joins C1 to C2, and the buffer senses C2 without letting the output pad discharge it. The bias, output driver, feedback, and compensation belong to one amplifier and are shown together.
 
+Supply arrows point up and ground symbols point down, with centered labels clear of wires and device values. R1/R2 form a vertical bias branch ending in ground. The conversion banks and phase drivers each share a ground rail; the phase drivers also share a positive supply rail. The two ERC power flags sit beside the harness supply entry, separate from the supply and ground graphics. The power-symbol geometry follows KiCad's standard GND, VDD, and PWR_FLAG symbols while retaining the harness names VGND and VDPWR.
+
 ## Reference selection and the two banks
 
 ![Reference selectors and physically connected SAMPLE/HOLD banks](../schematic/render/core.png)
