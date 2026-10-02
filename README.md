@@ -11,7 +11,7 @@ An 8-bit serial charge-sharing DAC implemented in SKY130 for an experimental Tin
 
 ## The circuit
 
-![Connected transistor-level schematic: reference switches, matched banks, amplifier, visible feedback, and compensation](docs/images/schematic_overview.png)
+![Connected transistor-level schematic: reference switches, matched banks, amplifier with a conventional M17/M18 current mirror, visible feedback, and compensation](docs/images/schematic_overview.png)
 
 The signal flows from the reference selectors through **SAMPLE → SHARE → HOLD → buffer → VOUT**. C1 is charged to the next bit's reference, then shares its charge with C2. Repeating this operation least significant bit first gives the ideal transfer:
 
@@ -19,7 +19,7 @@ The signal flows from the reference selectors through **SAMPLE → SHARE → HOL
 VOUT = VREFL + (VREFH − VREFL) × code / 256
 ```
 
-The complete buffer is drawn beside the conversion core, with its bias wire, feedback loop, and R3–C3 compensation connected visibly. The three inverters below the core generate complementary switch controls. C3 is a buffer compensation capacitor, separate from the two conversion banks.
+The complete buffer is drawn beside the conversion core, with its bias wire, feedback loop, and R3–C3 compensation connected visibly. Its M17/M18 NMOS current mirror uses a conventional drawing: inward-facing gates share a straight gate bus, and a short drain-to-gate connection makes M17 diode connected. This redraw preserves all electrical connections and device sizes. The three inverters below the core generate complementary switch controls. C3 is a buffer compensation capacitor, separate from the two conversion banks.
 
 [Full schematic PNG](schematic/suarez_dac.png) · [Printable PDF](schematic/suarez_dac.pdf) · [SVG](schematic/render/suarez_dac.svg) · [Editable KiCad project](schematic/suarez_dac.kicad_pro)
 
