@@ -8,7 +8,7 @@
     "pdk": "sky130A from image",
     "image_digest": "hpretl/iic-osic-tools@sha256:5d6adf1f437cd0f2f8f8614488ec3c247ba8c768f4663a25d5e997b30ccb13b0"
   },
-  "kicad": "10.0 native Windows CLI",
+  "kicad": "10.0.6 native Windows CLI",
   "references": [
     {
       "name": "KiStack",
@@ -39,9 +39,9 @@
       "url": "https://tinytapeout.com/specs/analog/"
     }
   ],
-  "schematic_review": "Grouped colored single-sheet A3 drawing, 50 mil labels, direct passive wiring, three-terminal MOS symbols. Full page plus core/control/buffer renders inspected. Fixed-width resistor bulk ties and MOS bulk ties remain explicit in SPICE and silicon.",
+  "schematic_review": "Revision 0.2: connected reference selectors, matched SAMPLE/HOLD banks, complete bias and amplifier, visible feedback and compensation, and grouped phase drivers. A3 page and detail renders reviewed. Zero ERC violations; all 72 connections, 26 device property sets, and D/G/S symbol pin names checked against design.json.",
   "maskhint_note": "The narrow-resistor PCells need a 1.27 um URPM mask hint. Official precheck imports GDS with gds maskhints yes; this preserves that implant and all final prechecks pass. Do not discard mask hints on import.",
-  "scope": "Final local design package and model-based qualification; no shuttle upload or purchase.",
+  "scope": "Published GitHub design package and model-based qualification; no shuttle submission, purchase, fabrication, or measured silicon.",
   "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
   "extraction": {
     "source": "delivered GDS",
@@ -49,5 +49,13 @@
     "extresist_threshold_milliohm": 1000,
     "extresist_minres_milliohm": 1000,
     "extresist_mindelay_ps": 0
+  },
+  "documentation_figures": {
+    "renderer": "scripts/render_docs.py",
+    "layout": "Delivered GDS polygons and layout/placement.json",
+    "linearity": "Nine full-code results and 32 local mismatch seeds",
+    "stability": "120 AC results and recorded buffer-step waveform vectors",
+    "timing": "Protocol illustration, separately labeled",
+    "schematic": "Native KiCad SVG export with deterministic connectivity/property checks"
   }
 }

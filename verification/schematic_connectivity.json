@@ -4,6 +4,9 @@
   "mismatches": [],
   "visible_mos_pin_count": 3,
   "bulk_policy": "All NMOS bulks VGND; all PMOS bulks VDPWR. Three-terminal visible MOS symbols; bulk ties preserved in silicon and netlists.",
-  "schematic_sha256": "662c697da9c29c6451b1d15dc3dca6c2c95c7e7cc909c638fa55ffe4c06eab36",
-  "exported_netlist_sha256": "6d2f888a92ede56f2ba31d576ec767a2d34121b059f11f1be3f9f46578cee890"
+  "verified_device_properties": 26,
+  "property_mismatches": [],
+  "symbol_pin_mismatches": [],
+  "schematic_sha256": "d019d7b8d560bdc99030a533708af37eb4c2fb0ec1476d7305075c63f70a7419",
+  "exported_netlist_sha256": "2c5a89da8dc1d382830c591ec8dc8a6b2b99d53e058f184ea22aa253246a0f37"
 }

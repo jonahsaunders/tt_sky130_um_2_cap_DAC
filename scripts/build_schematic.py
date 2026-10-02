@@ -44,6 +44,20 @@ for name,p,down in [('NMOS3',False,False),('PMOS3',True,False),('PMOS_TG3',True,
     s_y=-d_y
     draw=fetdraw+('(circle (center -2.1 0) (radius .55) (stroke (width .254) (type default)) (fill (type background)))' if p else '')
     make_symbol(name,[('1','D',2.54,d_y,270 if d_y>0 else 90,'passive'),('2','G',-5.08,0,0,'passive'),('3','S',2.54,s_y,270 if s_y>0 else 90,'passive')],draw)
+
+# Horizontal switch symbols and inward-facing amplifier symbols retain D/G/S
+# pin numbers 1/2/3. Only their drawing and pin positions change.
+for name,p in [('NMOS_H3',False),('PMOS_H3',True)]:
+    gy=7.62 if p else -7.62
+    side=1 if p else -1
+    draw=line([(-2.54,0),(-2.54,side*2.54),(2.54,side*2.54),(2.54,0)])+line([(-2.54,side*3.81),(2.54,side*3.81)])+line([(0,side*3.81),(0,side*5.08)])
+    if p:draw+='(circle (center 0 4.65) (radius .55) (stroke (width .254) (type default)) (fill (type background)))'
+    make_symbol(name,[('1','D',-5.08,0,0,'passive'),('2','G',0,gy,270 if p else 90,'passive'),('3','S',5.08,0,180,'passive')],draw)
+mirror_draw=''.join([line([(2.54,0),(1.27,0)]),line([(1.27,-2.54),(1.27,2.54)]),line([(0,-2.54),(0,2.54)]),line([(0,2.54),(-2.54,2.54)]),line([(0,-2.54),(-2.54,-2.54)])])
+for name,p in [('NMOS_R3',False),('PMOS_R3',True)]:
+    dy=-5.08 if p else 5.08
+    draw=mirror_draw+('(circle (center 2.1 0) (radius .55) (stroke (width .254) (type default)) (fill (type background)))' if p else '')
+    make_symbol(name,[('1','D',-2.54,dy,90 if p else 270,'passive'),('2','G',5.08,0,180,'passive'),('3','S',-2.54,-dy,270 if p else 90,'passive')],draw)
 capdraw=line([(-1.27,.635),(1.27,.635)])+line([(-1.27,-.635),(1.27,-.635)])+line([(0,.635),(0,1.27)])+line([(0,-.635),(0,-1.27)])
 make_symbol('C_Small',[('1','1',0,3.81,270,'passive'),('2','2',0,-3.81,90,'passive')],capdraw,ref='C')
 cap_h=line([(-.635,-1.27),(-.635,1.27)])+line([(.635,-1.27),(.635,1.27)])+line([(-1.27,0),(-.635,0)])+line([(.635,0),(1.27,0)])
@@ -67,7 +81,11 @@ def inst(sym,x,y,ref,value,extra=None,visval=True):
         if sym in ['C_Small_H','R_Small_US_H'] and k=='Value': px,py=x-4,y+4
         if sym=='VGND' and k=='Value':px,py=x+2,y+3
         if sym=='VDPWR' and k=='Value':px,py=x+2,y-3
-        props.append(f'(property {q(k)} {q(v)} (at {px} {py} 0) (effects (font (size 1.27 1.27)) (justify left)'+('' if visible else ' (hide yes)')+'))')
+        if sym.endswith('_H3') and k=='Reference':px,py=x+7,y-3
+        if sym.endswith('_R3') and k=='Reference':px,py=x-12,y-3.8
+        if sym.endswith('_R3') and k=='Value':px,py=x-18,y+7.6
+        fs=1.05 if sym.endswith('3') and k=='Value' else 1.27
+        props.append(f'(property {q(k)} {q(v)} (at {px} {py} 0) (effects (font (size {fs} {fs})) (justify left)'+('' if visible else ' (hide yes)')+'))')
     pieces.append(f'''(symbol (lib_id "Sky130:{sym}") (at {x} {y} 0) (unit 1)
       (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (uuid {q(iid)})
       {' '.join(props)} {' '.join(f'(pin {q(n)} (uuid {q(uid())}))' for n in sympins[sym])}
@@ -80,94 +98,133 @@ def power(net,x,y,flag=False):
     if flag:
         pwr_count+=1
         inst('PWR_FLAG',x,y,f'#FLG{pwr_count:03}','PWR_FLAG',visval=False)
-def mos(role,x,y,tg=False):
+def mos(role,x,y,tg=False,horizontal=False,mirror=False):
     d=dev[role];sym='NMOS3' if 'nfet' in d['model'] else ('PMOS_TG3' if tg else 'PMOS3')
+    if horizontal:sym='NMOS_H3' if 'nfet' in d['model'] else 'PMOS_H3'
+    if mirror:sym='NMOS_R3' if 'nfet' in d['model'] else 'PMOS_R3'
     val=f"{d['w']} / {d['l']} um"+(' LVT' if '_lvt' in d['model'] else '')
-    return inst(sym,x,y,d['name'],val,{'Role':role,'PDK_Model':d['model'],'W_um':d['w'],'L_um':d['l'],'Bulk':d['b']})
+    return inst(sym,x,y,d['name'],val,{'Role':role,'PDK_Model':d['model'],'W_um':d['w'],'L_um':d['l'],'Bulk':d['b']},visval=not horizontal)
 def passive(role,sym,x,y,value):
     d=dev[role]
     return inst(sym,x,y,d['name'],value,{'Role':role,'PDK_Model':d['model'],'W_um':d['w'],'L_um':d['l'],'Multiplicity':d.get('m',1),'Bulk':d.get('bulk','')})
 def stub(pt,net,left=True,n=4):
     e=(round(pt[0]+(-n if left else n),4),pt[1]);wire(pt,e);label(net,e[0],e[1])
 
-text('SUAREZ TWO-CAPACITOR DAC  /  SKY130',15,17,3,True)
-text('Tiny Tapeout 1x2 analog macro  |  1.8 V  |  LSB first  |  transistor dimensions shown as W / L',15,23,1.4)
-box('01  CHARGE REDISTRIBUTION',15,28,250,94,'30 92 137')
-for tag,xx,net in [('H',40,'ua[0]'),('L',115,'ua[2]'),('S',190,'SAMPLE')]:
-    text({'H':'CHARGE HIGH','L':'CHARGE LOW','S':'SHARE CHARGE'}[tag],xx-3,42,1.5,True)
-    n=mos('MN_SW_'+tag,xx,65)
-    p=mos('MP_SW_'+tag,xx+30,65,tg=True)
-    up=52;down=79
-    for f in [n,p]: wire(f['1'],(f['1'][0],up));wire(f['3'],(f['3'][0],down))
-    wire((n['1'][0],up),(p['1'][0],up));wire((n['3'][0],down),(p['3'][0],down))
-    label(net,n['1'][0],up)
-    outnet='HOLD' if tag=='S' else 'SAMPLE';label(outnet,n['3'][0],down)
-    stub(n['2'],dev['MN_SW_'+tag]['g'],n=4)
-    stub(p['2'],tag+'_BAR',n=3)
-    if tag in ['H','S']:
-        cx=(n['3'][0]+p['3'][0])/2
-        cap=passive('C_'+outnet,'C_Small',cx,99,'6.454 pF')
-        wire((cx,down),cap['1']);junction(cx,down)
-        wire(cap['2'],(cx,110));power('VGND',cx,110)
-        text('16 x (14 / 14 um) MIM',cx+3,106,1.0)
-text('HIGH and LOW must never overlap. SHARE closes only after HIGH / LOW have opened.',20,118,1.12)
+def path(*points):
+    for a,b in zip(points,points[1:]):wire(a,b)
 
-box('02  BUFFER COMPENSATION',276,28,129,94,'121 80 131')
-r=passive('RZ','R_Small_US_H',310,69,'80 kR nominal')
-c=passive('C_COMP','C_Small_H',360,69,'1.373 pF')
-wire((289,69),r['1']);label('AMP',289,69)
-wire(r['2'],c['1']);label('COMP',334,69);wire(c['2'],(393,69));label('ua[1]',393,69)
-text('R3: xhigh poly, 0.35 / 14 um',282,91,1.2)
-text('C3 stabilizes the output buffer.',282,101,1.2)
-text('C1 and C2 perform the D/A conversion.',282,108,1.2)
+def tap(x,y):junction(x,y)
 
-box('03  COMPLEMENTARY SWITCH CONTROLS',15,133,130,111,'49 117 103')
-for tag,x in [('H',40),('L',78),('S',116)]:
-    p=mos('MP_INV_'+tag,x,166);n=mos('MN_INV_'+tag,x,192)
-    wire(p['1'],n['1']);oy=179
-    wire((p['1'][0],oy),(x+11,oy));junction(p['1'][0],oy);label(tag+'_BAR',x+11,oy)
-    gx=x-10
-    wire(p['2'],(gx,p['2'][1]));wire(n['2'],(gx,n['2'][1]));wire((gx,p['2'][1]),(gx,n['2'][1]))
-    wire((gx,oy),(gx-4,oy));junction(gx,oy);label(dev['MN_INV_'+tag]['g'],gx-4,oy)
-    wire(p['3'],(p['3'][0],152));power('VDPWR',p['3'][0],152,flag=tag=='H')
-    wire(n['3'],(n['3'][0],215));power('VGND',n['3'][0],215,flag=tag=='H')
-text('External phases provide dead time.',21,232,1.2)
-text('No on-chip word counter is required.',21,239,1.2)
+def tg(tag,x,y):
+    p=mos('MP_SW_'+tag,x,y-6.35,horizontal=True)
+    n=mos('MN_SW_'+tag,x,y+6.35,horizontal=True)
+    xl,xr=snap(x-10.16),snap(x+10.16)
+    for f in [p,n]:
+        path(f['1'],(xl,f['1'][1]),(xl,y))
+        path(f['3'],(xr,f['3'][1]),(xr,y))
+    tap(xl,y);tap(xr,y)
+    path(p['2'],(x,y-16.51));label(tag+'_BAR',x,y-16.51)
+    path(n['2'],(x,y+16.51));label(dev['MN_SW_'+tag]['g'],x,y+16.51)
+    return (xl,snap(y)),(xr,snap(y))
 
-box('04  INPUT AMPLIFIER AND BIAS',155,133,155,111,'121 80 131')
-b=mos('MP_BIAS',175,166);wire(b['3'],(b['3'][0],151));power('VDPWR',b['3'][0],151)
-wire(b['2'],(165,b['2'][1]));wire((165,166),(165,177));wire((165,177),(b['1'][0],177));wire(b['1'],(b['1'][0],177));junction(b['1'][0],177);label('BIAS',165,177)
-r1=passive('RB1','R_Small_US',177.54,195,'171 kR nominal');r2=passive('RB2','R_Small_US',177.54,215,'171 kR nominal')
-wire((177.54,177),r1['1']);wire(r1['2'],r2['1']);label('RBMID',177.54,205)
-wire(r2['2'],(177.54,228));power('VGND',177.54,228)
-t=mos('MP_TAIL',239,151);wire(t['3'],(t['3'][0],144));power('VDPWR',t['3'][0],144);stub(t['2'],'BIAS')
-pp=mos('MP_INP',220,179);pm=mos('MP_INM',263,179)
-wire(t['1'],(t['1'][0],166));wire((pp['3'][0],166),(pm['3'][0],166));junction(t['1'][0],166);label('TAIL',246,166)
-for f in [pp,pm]:wire(f['3'],(f['3'][0],166))
-stub(pp['2'],'HOLD');stub(pm['2'],'ua[1]')
-nl=mos('MN_LOAD',220,216);nm=mos('MN_MIRROR',263,216)
-wire(pp['1'],nl['1']);label('AMP',pp['1'][0],199)
-wire(pm['1'],nm['1']);label('MIRROR',pm['1'][0],199)
-stub(nl['2'],'MIRROR')
-wire(nm['2'],(253,216));wire((253,216),(253,199));wire((253,199),(nm['1'][0],199));junction(nm['1'][0],199)
-wire(nl['3'],(nl['3'][0],235));wire(nm['3'],(nm['3'][0],235));wire((nl['3'][0],235),(nm['3'][0],235));power('VGND',242,235);junction(242,235)
+text('SUAREZ SERIAL CHARGE-SHARING DAC',15,17,3,True)
+text('SKY130  |  1.8 V  |  8 bits, LSB first  |  161 x 225.76 um  |  W / L dimensions in um',15,24,1.35)
+box('01  REFERENCE SELECTION AND CHARGE SHARING',15,32,194,148,'30 92 137')
+box('02  UNITY-GAIN BUFFER  /  BIAS, FEEDBACK AND COMPENSATION',219,32,186,220,'121 80 131')
+box('03  COMPLEMENTARY PHASE DRIVERS',15,188,194,64,'49 117 103')
 
-box('05  OUTPUT DRIVER',320,133,85,111,'121 80 131')
-po=mos('MP_OUT',351,166);no=mos('MN_OUT',351,211)
-wire(po['3'],(po['3'][0],151));power('VDPWR',po['3'][0],151)
-wire(po['1'],no['1']);wire((po['1'][0],189),(390,189));junction(po['1'][0],189);label('ua[1]',390,189)
-stub(po['2'],'BIAS');stub(no['2'],'AMP')
-wire(no['3'],(no['3'][0],229));power('VGND',no['3'][0],229)
-text('Buffered analog output',326,239,1.2)
+hi_in,hi_out=tg('H',65,77)
+lo_in,lo_out=tg('L',65,127)
+s_in,s_out=tg('S',165,102)
+path((23,77),hi_in);label('ua[0]',23,77)
+path((23,127),lo_in);label('ua[2]',23,127)
+text('VREFH = 0.9 V',23,70,1.15)
+text('VREFL = 0.2 V',23,120,1.15)
+text('HIGH',51,49,1.35,True)
+text('LOW',52,106,1.35,True)
+text('SHARE',155,73,1.35,True)
+path(hi_out,(128,77),(128,127),lo_out)
+path((128,102),s_in);tap(128,102);label('SAMPLE',128,102)
+path(s_out,(196,102),(217,102),(217,141))
+label('HOLD',184,102)
+for role,x in [('C_SAMPLE',128),('C_HOLD',196)]:
+    c=passive(role,'C_Small',x,150,'6.454 pF')
+    path((x,102),c['1']);tap(x,102)
+    path(c['2'],(x,171));power('VGND',x,171)
+text('C1 / C2: 16 MIM units per bank',23,161,1.05)
+text('Switches: N 1 / 0.15; P 2 / 0.35 LVT',23,171,1.05)
 
-text('PORTS',15,255,1.6,True)
-text('ui_in[0] = HIGH    ui_in[1] = LOW    ui_in[2] = SHARE    ua[0] = VREFH    ua[1] = VOUT    ua[2] = VREFL',15,261,1.27)
-text('Initialize: HIGH=0, LOW=1, SHARE=1 for 8 us. Then 8 bits, LSB first: charge 2 us, dead 0.2 us, share 2 us, dead 0.2 us.',15,268,1.27)
-text('Bulk ties: every NMOS -> VGND; every PMOS -> VDPWR. Bulk pins are implicit in this drawing and explicit in the silicon netlist.',15,275,1.27)
-text('Unused digital outputs are tied to VGND; ua[3:7] are isolated. Supply bypassing is provided by the Tiny Tapeout chip / board.',15,282,1.15)
+# Bias reference, current source and output load share an actual bias wire.
+b=mos('MP_BIAS',238,82)
+t=mos('MP_TAIL',270,82)
+po=mos('MP_OUT',350,82)
+for f in [b,t,po]:path(f['3'],(f['3'][0],55))
+path((b['3'][0],55),(po['3'][0],55));tap(t['3'][0],55)
+power('VDPWR',323,55,flag=True);tap(323,55)
+path(b['1'],(b['1'][0],94),(224,94),(224,82),b['2'])
+tap(b['1'][0],94);tap(224,82)
+path((224,94),(336,94),(336,82),po['2'])
+path(t['2'],(259,t['2'][1]),(259,94));tap(259,94)
+label('BIAS',305,94)
+r1=passive('RB1','R_Small_US_H',248,46,'171 kR')
+r2=passive('RB2','R_Small_US_H',286,46,'171 kR')
+path((224,94),(224,46),r1['1']);tap(224,94)
+path(r1['2'],r2['1']);label('RBMID',264,46)
+path(r2['2'],(303,46));power('VGND',303,46)
+
+# Inward-facing differential pair; HOLD enters from the conversion core.
+pp=mos('MP_INP',244,141)
+pm=mos('MP_INM',286,141,mirror=True)
+path((217,141),pp['2'])
+path(t['1'],(t['1'][0],117))
+path(pp['3'],(pp['3'][0],117),(pm['3'][0],117),pm['3'])
+tap(t['1'][0],117);label('TAIL',253,117)
+nl=mos('MN_LOAD',244,174)
+nm=mos('MN_MIRROR',286,174,mirror=True)
+path(pp['1'],nl['1']);path(pm['1'],nm['1'])
+label('AMP',pp['1'][0],153);label('MIRROR',pm['1'][0],153)
+path((pm['1'][0],155),(299,155),(299,188),(231,188),(231,174),nl['2'])
+path(nm['2'],(299,174));tap(299,174);tap(pm['1'][0],155)
+for f in [nl,nm]:path(f['3'],(f['3'][0],197))
+path((nl['3'][0],197),(nm['3'][0],197));power('VGND',265,197);tap(265,197)
+
+# Second gain stage and the two visible paths around it: feedback above,
+# AMP drive and R3-C3 Miller compensation below.
+no=mos('MN_OUT',350,174)
+path(po['1'],no['1'])
+path((po['1'][0],151),(392,151));tap(po['1'][0],151);label('ua[1]',392,151)
+text('VOUT',379,144,1.4,True)
+path((389,151),(389,125),(315,125),(315,141),pm['2']);tap(389,151)
+text('unity-gain feedback',318,119,1.1)
+path(no['3'],(no['3'][0],197));power('VGND',no['3'][0],197)
+path((pp['1'][0],156),(225,156),(225,230));tap(pp['1'][0],156)
+path((225,213),(336,213),(336,174),no['2']);tap(225,213)
+label('AMP',306,213)
+r=passive('RZ','R_Small_US_H',260,230,'80 kR')
+c=passive('C_COMP','C_Small_H',314,230,'1.373 pF')
+path((225,230),r['1']);path(r['2'],c['1']);label('COMP',285,230)
+path(c['2'],(375,230),(375,151));tap(375,151)
+text('R3-C3 compensation belongs to the buffer',230,246,1.1)
+
+for tag,x in [('H',40),('L',97),('S',154)]:
+    p=mos('MP_INV_'+tag,x,207);n=mos('MN_INV_'+tag,x,232)
+    oy=snap(220)
+    path(p['1'],n['1']);tap(p['1'][0],oy)
+    path((p['1'][0],oy),(x+12,oy));label(tag+'_BAR',x+12,oy)
+    gx=snap(x-11)
+    path(p['2'],(gx,p['2'][1]),(gx,n['2'][1]),n['2'])
+    path((gx,oy),(gx-8,oy));tap(gx,oy);label(dev['MN_INV_'+tag]['g'],gx-8,oy)
+    path(p['3'],(p['3'][0],199));power('VDPWR',p['3'][0],199)
+    path(n['3'],(n['3'][0],244));power('VGND',n['3'][0],244,flag=tag=='H')
+
+text('OPERATING SEQUENCE',15,259,1.5,True)
+text('Initialize: HIGH=0, LOW=1, SHARE=1 for 8 us. Then all phases off for 0.2 us.',15,265,1.12)
+text('8 bits, LSB first: charge 2 us; dead 0.2 us; share 2 us; dead 0.2 us. Read 3 us after bit 7.',15,271,1.12)
+text('HIGH / LOW never overlap. LOW / SHARE overlap only during initialization. External controller supplies dead time.',15,277,1.02)
+text('Bodies: all NMOS -> VGND; all PMOS -> VDPWR. Body ties are explicit in SPICE / silicon.',15,283,1.02)
 
 sch=f'''(kicad_sch (version 20250114) (generator "eeschema") (uuid {q(root)})
-(paper "A3") (title_block (title "Suarez two-capacitor DAC") (rev "0.1") (company "SKY130 / Tiny Tapeout"))
+(paper "A3") (title_block (title "Suarez two-capacitor DAC") (rev "0.2") (company "SKY130 / Tiny Tapeout"))
 (lib_symbols {' '.join(lib)}) {' '.join(pieces)} (sheet_instances (path "/" (page "1"))))'''
 (P/'schematic/suarez_dac.kicad_sch').write_text(sch+'\n')
 library='(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor") '+ ' '.join(s.replace('"Sky130:','"') for s in lib)+')'

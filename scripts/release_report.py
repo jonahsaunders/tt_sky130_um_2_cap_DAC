@@ -38,6 +38,7 @@ tests=list(ET.parse(V/'precheck/results.xml').getroot().iter('testcase'))
 assert len(tests)==15 and all(not list(t) for t in tests)
 assert re.search(r'\*\* ERC messages: 0\s+Errors 0\s+Warnings 0', (V/'schematic_erc.rpt').read_text())
 schematic=read(V/'schematic_connectivity.json');assert schematic['verified_pin_connections']==72 and not schematic['mismatches']
+assert not schematic.get('property_mismatches',[]) and not schematic.get('symbol_pin_mismatches',[])
 rebuild=read(V/'rebuild.json');assert rebuild['netlist_identical'] and rebuild['gds_polygon_geometry_identical']
 allcases=full+pvt+mc
 assert max(r['max_reference_current_ma'] for r in allcases)<4 and max(r['max_supply_current_ua'] for r in allcases)<4000
@@ -80,11 +81,15 @@ All 256 codes were measured in each of nine conditions: five nominal process cor
 |---|---|---:|---:|---:|---:|---:|---:|
 {table}
 
-![Final transfer, INL, DNL, and offset distribution](qualification.png)
+![All nine final transfer, INL, DNL sweeps and offset distribution](../docs/images/linearity.png)
+
+The figure includes every full-sweep condition, including the two PVT stress cases and two mismatch seeds. The original [nominal-corner qualification plot](qualification.png) is also retained.
 
 An additional 30 PVT points each measure ten selected codes, including 127/128 and both endpoints. All are monotonic at the measured codes; worst raw error is {summary['max_pvt_probe_raw_error_lsb']:.3f} LSB. This selected-code grid is not an exhaustive all-code test at every PVT point. Full sweeps target the worst grid points. One nominal LSB is 2.734375 mV. Nominal modeled linearity is assessed against ±1 LSB INL and strictly positive code steps, rather than a claim of eight-bit absolute accuracy.
 
 ## Stability, settling, retention, and noise
+
+![All loop-stability cases and standalone-buffer step responses](../docs/images/stability_settling.png)
 
 The actual extracted RC circuit was tested with Middlebrook voltage injection at the buffer feedback gate. 120 combinations cover five process corners, both supply boundaries, both temperature boundaries, three input voltages, and both load boundaries. Every case exceeds 60° phase margin; the minimum is {summary['min_phase_margin_deg']:.2f}°. Small-signal margins do not by themselves establish large-signal settling.
 
@@ -108,7 +113,7 @@ Peak supply current across the conversion qualification is {summary['max_supply_
 
 Final GDS SHA-256: `{sha}`. Final reduced RC SHA-256: `{rcsha}`. Every qualification case records these hashes. `all_code_results.csv` contains all final full-sweep measurements. JSON results, decks, logs, model hashes, native layout, and generators make the checks auditable. Raw waveform vectors remain in the local results folder; the compact ZIP omits redundant per-run vectors and DUT snapshots, which the scripts regenerate.
 
-The GitHub custom-GDS workflow and metadata follow the current official analog template. The package has not been uploaded, submitted, purchased, fabricated, or measured. Chip integration and silicon measurements remain the final confirmation of performance.
+The GitHub custom-GDS workflow and metadata follow the current official analog template. The design is published in its GitHub repository; it has not been submitted to a shuttle, purchased, fabricated, or measured. Chip integration and silicon measurements remain the final confirmation of performance.
 
 Sources: [Tiny Tapeout analog specifications](https://tinytapeout.com/specs/analog/), [official analog template](https://github.com/TinyTapeout/ttsky-analog-template), [official support tools](https://github.com/TinyTapeout/tt-support-tools), [IIC OSIC Tools](https://github.com/iic-jku/IIC-OSIC-TOOLS). Exact tool and repository versions are recorded in `provenance.json`.
 '''

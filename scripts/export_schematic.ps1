@@ -8,7 +8,7 @@ $schematicPath = Join-Path $packageRoot 'schematic\suarez_dac.kicad_sch'
 if ($LASTEXITCODE -ne 0) { throw 'ERC failed' }
 & $KicadCli sch export netlist --format kicadxml -o (Join-Path $packageRoot 'verification\schematic_netlist.xml') $schematicPath
 if ($LASTEXITCODE -ne 0) { throw 'Netlist export failed' }
-& $KicadCli sch export svg -o (Join-Path $packageRoot 'schematic\render') $schematicPath
+& $KicadCli sch export svg --exclude-drawing-sheet --draw-hop-over -o (Join-Path $packageRoot 'schematic\render') $schematicPath
 if ($LASTEXITCODE -ne 0) { throw 'SVG export failed' }
-& $KicadCli sch export pdf -o (Join-Path $packageRoot 'schematic\suarez_dac.pdf') $schematicPath
+& $KicadCli sch export pdf --draw-hop-over -o (Join-Path $packageRoot 'schematic\suarez_dac.pdf') $schematicPath
 if ($LASTEXITCODE -ne 0) { throw 'PDF export failed' }

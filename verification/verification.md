@@ -26,11 +26,15 @@ All 256 codes were measured in each of nine conditions: five nominal process cor
 | full_mc_1027 | tt | 1.8 | 27 | 5 | 0.338 | -0.017 to 0.603 | 1.922 |
 | full_mc_1026 | tt | 1.8 | 27 | 5 | 0.296 | -0.014 to 0.476 | 10.647 |
 
-![Final transfer, INL, DNL, and offset distribution](qualification.png)
+![All nine final transfer, INL, DNL sweeps and offset distribution](../docs/images/linearity.png)
+
+The figure includes every full-sweep condition, including the two PVT stress cases and two mismatch seeds. The original [nominal-corner qualification plot](qualification.png) is also retained.
 
 An additional 30 PVT points each measure ten selected codes, including 127/128 and both endpoints. All are monotonic at the measured codes; worst raw error is 0.510 LSB. This selected-code grid is not an exhaustive all-code test at every PVT point. Full sweeps target the worst grid points. One nominal LSB is 2.734375 mV. Nominal modeled linearity is assessed against ±1 LSB INL and strictly positive code steps, rather than a claim of eight-bit absolute accuracy.
 
 ## Stability, settling, retention, and noise
+
+![All loop-stability cases and standalone-buffer step responses](../docs/images/stability_settling.png)
 
 The actual extracted RC circuit was tested with Middlebrook voltage injection at the buffer feedback gate. 120 combinations cover five process corners, both supply boundaries, both temperature boundaries, three input voltages, and both load boundaries. Every case exceeds 60° phase margin; the minimum is 71.74°. Small-signal margins do not by themselves establish large-signal settling.
 
@@ -54,6 +58,6 @@ Peak supply current across the conversion qualification is 281.4 µA; peak refer
 
 Final GDS SHA-256: `efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306`. Final reduced RC SHA-256: `37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df`. Every qualification case records these hashes. `all_code_results.csv` contains all final full-sweep measurements. JSON results, decks, logs, model hashes, native layout, and generators make the checks auditable. Raw waveform vectors remain in the local results folder; the compact ZIP omits redundant per-run vectors and DUT snapshots, which the scripts regenerate.
 
-The GitHub custom-GDS workflow and metadata follow the current official analog template. The package has not been uploaded, submitted, purchased, fabricated, or measured. Chip integration and silicon measurements remain the final confirmation of performance.
+The GitHub custom-GDS workflow and metadata follow the current official analog template. The design is published in its GitHub repository; it has not been submitted to a shuttle, purchased, fabricated, or measured. Chip integration and silicon measurements remain the final confirmation of performance.
 
 Sources: [Tiny Tapeout analog specifications](https://tinytapeout.com/specs/analog/), [official analog template](https://github.com/TinyTapeout/ttsky-analog-template), [official support tools](https://github.com/TinyTapeout/tt-support-tools), [IIC OSIC Tools](https://github.com/iic-jku/IIC-OSIC-TOOLS). Exact tool and repository versions are recorded in `provenance.json`.
