@@ -1,0 +1,55 @@
+{
+  "name": "full_ff_block056",
+  "corner": "ff",
+  "supply_v": 1.8,
+  "temp_c": 27,
+  "load_pf": 5,
+  "step_ns": 100,
+  "mismatch_seed": null,
+  "netlist": "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice",
+  "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+  "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+  "model_sha256": "7a9c91b4a04cbcd04cfaf1617ce711d1c924994dcd978e84ba0c4182a443a935",
+  "measurements": [
+    {
+      "code": 56,
+      "time_us": 46.400000000000006,
+      "ideal_v": 0.353125
+    },
+    {
+      "code": 57,
+      "time_us": 93.30000000000005,
+      "ideal_v": 0.355859375
+    },
+    {
+      "code": 58,
+      "time_us": 140.20000000000005,
+      "ideal_v": 0.35859375
+    },
+    {
+      "code": 59,
+      "time_us": 187.09999999999985,
+      "ideal_v": 0.361328125
+    },
+    {
+      "code": 60,
+      "time_us": 233.99999999999966,
+      "ideal_v": 0.3640625
+    },
+    {
+      "code": 61,
+      "time_us": 280.89999999999947,
+      "ideal_v": 0.366796875
+    },
+    {
+      "code": 62,
+      "time_us": 327.7999999999993,
+      "ideal_v": 0.36953125
+    },
+    {
+      "code": 63,
+      "time_us": 374.6999999999991,
+      "ideal_v": 0.372265625
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1001",
+      "--seed",
+      "1001",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.003572702407837,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1002",
+      "--seed",
+      "1002",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.950987100601196,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1003",
+      "--seed",
+      "1003",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 23.22879433631897,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1004",
+      "--seed",
+      "1004",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 21.923386812210083,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1005",
+      "--seed",
+      "1005",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 26.083170890808105,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1006",
+      "--seed",
+      "1006",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 24.476709842681885,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1007",
+      "--seed",
+      "1007",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 26.7843976020813,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1008",
+      "--seed",
+      "1008",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 25.860408067703247,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1009",
+      "--seed",
+      "1009",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 26.46422028541565,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1010",
+      "--seed",
+      "1010",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 28.128949403762817,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1011",
+      "--seed",
+      "1011",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 28.349350214004517,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1012",
+      "--seed",
+      "1012",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 28.657048225402832,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1013",
+      "--seed",
+      "1013",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 28.997904300689697,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1014",
+      "--seed",
+      "1014",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 26.69308590888977,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1015",
+      "--seed",
+      "1015",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 26.36258292198181,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1016",
+      "--seed",
+      "1016",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 29.49118423461914,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1017",
+      "--seed",
+      "1017",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 30.197611331939697,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1018",
+      "--seed",
+      "1018",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 30.995018243789673,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1019",
+      "--seed",
+      "1019",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 29.93133282661438,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1020",
+      "--seed",
+      "1020",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 27.98992943763733,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1021",
+      "--seed",
+      "1021",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.94471025466919,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1022",
+      "--seed",
+      "1022",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 23.03526473045349,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1023",
+      "--seed",
+      "1023",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.66682481765747,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1024",
+      "--seed",
+      "1024",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.8466055393219,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1025",
+      "--seed",
+      "1025",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 20.75512170791626,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1026",
+      "--seed",
+      "1026",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.61233162879944,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1027",
+      "--seed",
+      "1027",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.823448657989502,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1028",
+      "--seed",
+      "1028",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 22.333555459976196,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1029",
+      "--seed",
+      "1029",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 19.91460156440735,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1030",
+      "--seed",
+      "1030",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 18.972821712493896,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1031",
+      "--seed",
+      "1031",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 19.3806254863739,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "probe",
+      "--name",
+      "mc_1032",
+      "--seed",
+      "1032",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 19.321044206619263,
+    "returncode": 0
+  }
+]

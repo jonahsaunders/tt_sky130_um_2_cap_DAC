@@ -1,0 +1,264 @@
+* PEX produced on Fri Oct  2 07:27:08 PM CEST 2026 using /foss/tools/sak/sak-pex.sh with m=2 and s=1
+* NGSPICE file created from tt_um_jonah_suarez_dac_pex.ext - technology: sky130A
+
+.subckt tt_um_jonah_suarez_dac_pex clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5]
++ ua[6] ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7]
++ uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7]
++ VGND VDPWR
+X0 RBMID VGND VGND sky130_fd_pr__res_xhigh_po_0p35 l=30
+X1 TAIL ua[1] MIRROR VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X2 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X3 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X4 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X5 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X6 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X7 HOLD S_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X8 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X9 VDPWR BIAS TAIL VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X10 SAMPLE L_BAR ua[2] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X11 VDPWR BIAS BIAS VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X12 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X13 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X14 SAMPLE H_BAR ua[0] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.35
+X15 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X16 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X17 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X18 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X19 COMP ua[1] sky130_fd_pr__cap_mim_m3_1 l=26 w=26
+X20 VGND MIRROR MIRROR VGND sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X21 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X22 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X23 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X24 BIAS RBMID VGND sky130_fd_pr__res_xhigh_po_0p35 l=30
+X25 TAIL HOLD AMP VDPWR sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X26 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X27 VDPWR BIAS ua[1] VDPWR sky130_fd_pr__pfet_01v8 ad=6.96 pd=48.58 as=6.96 ps=48.58 w=24 l=2
+X28 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X29 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X30 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X31 VGND AMP ua[1] VGND sky130_fd_pr__nfet_01v8 ad=5.8 pd=40.58 as=5.8 ps=40.58 w=20 l=1
+X32 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X33 VDPWR ui_in[2] S_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X34 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X35 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X36 AMP COMP VGND sky130_fd_pr__res_xhigh_po_0p35 l=14
+X37 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X38 VDPWR ui_in[1] L_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X39 VGND ui_in[2] S_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X40 HOLD ui_in[2] SAMPLE VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X41 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X42 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X43 VDPWR ui_in[0] H_BAR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X44 VGND ui_in[1] L_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X45 SAMPLE ui_in[1] ua[2] VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X46 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X47 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X48 VGND ui_in[0] H_BAR VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X49 SAMPLE ui_in[0] ua[0] VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X50 VGND MIRROR AMP VGND sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=2
+X51 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X52 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X53 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X54 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+X55 HOLD VGND sky130_fd_pr__cap_mim_m3_1 l=14 w=14
+C0 MIRROR COMP 0.0405f
+C1 BIAS RBMID 23.9308f
+C2 HOLD COMP 0.5665f
+C3 AMP ui_in[2] 0.98483f
+C4 BIAS L_BAR 0.34113f
+C5 SAMPLE VDPWR 4.09568f
+C6 H_BAR VDPWR 1.72793f
+C7 uio_in[1] uio_in[2] 0.03102f
+C8 TAIL SAMPLE 0.22928f
+C9 H_BAR TAIL 0.22804f
+C10 uio_in[3] uio_in[4] 0.03102f
+C11 BIAS VDPWR 7.53415f
+C12 BIAS TAIL 1.40751f
+C13 ua[2] RBMID 0.24289f
+C14 ui_in[1] SAMPLE 1.67437f
+C15 H_BAR ui_in[1] 0.7214f
+C16 SAMPLE S_BAR 1.17049f
+C17 L_BAR ua[2] 0.83209f
+C18 COMP RBMID 0.36287f
+C19 H_BAR S_BAR 0.24004f
+C20 L_BAR COMP 0.05106f
+C21 ui_in[0] ua[1] 0.8664f
+C22 BIAS ui_in[1] 0.33645f
+C23 BIAS S_BAR 0.34783f
+C24 ui_in[2] MIRROR 1.04052f
+C25 ui_in[2] HOLD 1.46301f
+C26 ua[2] VDPWR 1.01747f
+C27 TAIL ua[2] 0.22855f
+C28 COMP VDPWR 0.28701f
+C29 TAIL COMP 0.04324f
+C30 ui_in[1] ua[2] 1.37928f
+C31 ua[2] S_BAR 0.20212f
+C32 ui_in[1] COMP 0.11071f
+C33 ua[0] ui_in[0] 1.32612f
+C34 COMP S_BAR 0.03565f
+C35 AMP MIRROR 1.22162f
+C36 AMP HOLD 1.70679f
+C37 ui_in[2] RBMID 0.09816f
+C38 ui_in[2] L_BAR 0.14181f
+C39 uio_in[1] uio_in[0] 0.03102f
+C40 ui_in[2] VDPWR 1.43854f
+C41 clk rst_n 0.03102f
+C42 ui_in[2] TAIL 0.2973f
+C43 AMP RBMID 11.574f
+C44 AMP L_BAR 0.28845f
+C45 ua[0] ua[1] 6.81716f
+C46 ui_in[1] ui_in[2] 8.74581f
+C47 ui_in[2] S_BAR 2.63849f
+C48 HOLD MIRROR 0.29634f
+C49 AMP VDPWR 1.34866f
+C50 ui_in[0] SAMPLE 1.64428f
+C51 H_BAR ui_in[0] 2.81182f
+C52 AMP TAIL 12.9239f
+C53 BIAS ui_in[0] 0.35307f
+C54 ui_in[7] uio_in[0] 0.03102f
+C55 AMP ui_in[1] 0.27846f
+C56 AMP S_BAR 0.26045f
+C57 MIRROR RBMID 12.5866f
+C58 HOLD RBMID 0.53879f
+C59 L_BAR MIRROR 0.29233f
+C60 L_BAR HOLD 0.38171f
+C61 ui_in[0] ua[2] 0.28268f
+C62 ui_in[0] COMP 0.10877f
+C63 ui_in[4] ui_in[3] 0.03102f
+C64 MIRROR VDPWR 1.68631f
+C65 HOLD VDPWR 2.25981f
+C66 SAMPLE ua[1] 2.09161f
+C67 H_BAR ua[1] 0.2702f
+C68 TAIL MIRROR 13.3001f
+C69 HOLD TAIL 1.17688f
+C70 BIAS ua[1] 2.97628f
+C71 L_BAR RBMID 0.0358f
+C72 ui_in[1] MIRROR 0.94885f
+C73 ui_in[1] HOLD 0.37571f
+C74 MIRROR S_BAR 0.29265f
+C75 HOLD S_BAR 0.93102f
+C76 VDPWR RBMID 0.28684f
+C77 ua[0] SAMPLE 1.71138f
+C78 H_BAR ua[0] 0.81317f
+C79 TAIL RBMID 0.23821f
+C80 L_BAR VDPWR 1.55482f
+C81 ua[2] ua[1] 4.43061f
+C82 L_BAR TAIL 0.22804f
+C83 BIAS ua[0] 0.87598f
+C84 ui_in[5] ui_in[6] 0.03102f
+C85 COMP ua[1] 82.3275f
+C86 ui_in[2] ui_in[0] 0.28413f
+C87 ui_in[3] ui_in[2] 0.0337f
+C88 ui_in[1] RBMID 0.13299f
+C89 S_BAR RBMID 0.0359f
+C90 ui_in[1] L_BAR 2.54425f
+C91 L_BAR S_BAR 12.5615f
+C92 TAIL VDPWR 4.56924f
+C93 AMP ui_in[0] 0.26137f
+C94 ua[0] ua[2] 12.7773f
+C95 ui_in[1] VDPWR 1.45182f
+C96 S_BAR VDPWR 1.55542f
+C97 ua[0] COMP 0.18969f
+C98 ui_in[1] TAIL 0.3036f
+C99 TAIL S_BAR 0.22804f
+C100 ui_in[2] ua[1] 0.29879f
+C101 ui_in[1] S_BAR 0.30523f
+C102 H_BAR SAMPLE 1.12355f
+C103 BIAS SAMPLE 0.83061f
+C104 BIAS H_BAR 0.37998f
+C105 ui_in[0] MIRROR 0.39081f
+C106 HOLD ui_in[0] 0.32935f
+C107 AMP ua[1] 2.29462f
+C108 clk ena 0.03102f
+C109 ui_in[2] ua[0] 0.2728f
+C110 ua[2] SAMPLE 14.2278f
+C111 H_BAR ua[2] 0.19024f
+C112 COMP SAMPLE 0.7053f
+C113 H_BAR COMP 0.03544f
+C114 BIAS ua[2] 1.68269f
+C115 uio_in[6] uio_in[5] 0.03102f
+C116 BIAS COMP 0.3221f
+C117 ui_in[5] ui_in[4] 0.03102f
+C118 ui_in[0] RBMID 0.10825f
+C119 AMP ua[0] 0.34733f
+C120 L_BAR ui_in[0] 0.29941f
+C121 MIRROR ua[1] 1.32139f
+C122 HOLD ua[1] 2.47254f
+C123 ui_in[6] ui_in[7] 0.03102f
+C124 ua[2] COMP 0.13664f
+C125 ui_in[0] VDPWR 12.0698f
+C126 TAIL ui_in[0] 0.30167f
+C127 ui_in[2] SAMPLE 1.69574f
+C128 H_BAR ui_in[2] 8.31028f
+C129 BIAS ui_in[2] 0.32783f
+C130 ui_in[1] ui_in[0] 10.0952f
+C131 ui_in[0] S_BAR 0.29095f
+C132 ua[0] MIRROR 0.29287f
+C133 ua[0] HOLD 1.92283f
+C134 ua[1] RBMID 0.48319f
+C135 uio_in[3] uio_in[2] 0.03102f
+C136 L_BAR ua[1] 0.25864f
+C137 AMP SAMPLE 0.79332f
+C138 H_BAR AMP 0.27157f
+C139 uio_in[6] uio_in[7] 0.03102f
+C140 BIAS AMP 0.52533f
+C141 ui_in[2] ua[2] 0.2684f
+C142 ua[1] VDPWR 4.91321f
+C143 ui_in[2] COMP 0.14016f
+C144 TAIL ua[1] 1.33161f
+C145 ua[0] RBMID 0.12586f
+C146 ua[0] L_BAR 0.20298f
+C147 rst_n ui_in[0] 0.0338f
+C148 ui_in[1] ua[1] 0.2536f
+C149 S_BAR ua[1] 0.38115f
+C150 AMP ua[2] 0.80826f
+C151 AMP COMP 23.7447f
+C152 ua[0] VDPWR 1.04175f
+C153 ua[0] TAIL 0.22843f
+C154 MIRROR SAMPLE 0.2942f
+C155 HOLD SAMPLE 8.30022f
+C156 H_BAR MIRROR 0.29233f
+C157 H_BAR HOLD 0.26882f
+C158 BIAS MIRROR 0.3024f
+C159 uio_in[4] uio_in[5] 0.03102f
+C160 BIAS HOLD 13.3112f
+C161 ui_in[1] ua[0] 0.28312f
+C162 ua[0] S_BAR 12.6255f
+C163 SAMPLE RBMID 0.59915f
+C164 H_BAR RBMID 0.05065f
+C165 L_BAR SAMPLE 1.23778f
+C166 ua[2] MIRROR 0.29307f
+C167 HOLD ua[2] 0.80336f
+C168 H_BAR L_BAR 12.5777f
+C169 ua[3] VGND 0.16449f
+C170 ua[4] VGND 0.16449f
+C171 ua[5] VGND 0.16449f
+C172 ua[6] VGND 0.16608f
+C173 ua[7] VGND 0.16735f
+C174 ena VGND 0.07268f
+C175 clk VGND 0.04517f
+C176 rst_n VGND 0.04463f
+C177 ui_in[3] VGND 0.04463f
+C178 ui_in[4] VGND 0.04517f
+C179 ui_in[5] VGND 0.04517f
+C180 ui_in[6] VGND 0.04516f
+C181 ui_in[7] VGND 0.04514f
+C182 uio_in[0] VGND 0.04517f
+C183 uio_in[1] VGND 0.04516f
+C184 uio_in[2] VGND 0.04517f
+C185 uio_in[3] VGND 0.04517f
+C186 uio_in[4] VGND 0.04517f
+C187 uio_in[5] VGND 0.04517f
+C188 uio_in[6] VGND 0.04529f
+C189 uio_in[7] VGND 0.07796f
+C190 ua[1] VGND 50.745f
+C191 ua[2] VGND 32.42417f
+C192 ua[0] VGND 36.57619f
+C193 VDPWR VGND 0.10811p
+C194 RBMID VGND 31.8523f
+C195 TAIL VGND 61.29464f
+C196 S_BAR VGND 2.74654f
+C197 L_BAR VGND 2.80145f
+C198 H_BAR VGND 3.0174f
+.ends
+

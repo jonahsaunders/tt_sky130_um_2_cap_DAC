@@ -1,0 +1,89 @@
+
+Magic 8.3 revision 678 - Compiled on Mon Jul 27 03:07:22 PM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/foss/designs/outputs/suarez_dac/build/layout_got2hjvk/build.tcl" from command line.
+Reading DEF data from file /foss/designs/outputs/suarez_dac/build/layout_got2hjvk/pin_template.def.
+This action cannot be undone.
+  Processed 0 subcell instances total.
+  Processed 51 pins total.
+  Processed 2 special nets total.
+  Processed 51 nets total.
+DEF read: Processed 272 lines.
+Warning:  snap setting is also changing units.  This usage is deprecated
+and may be removed in the future.  Use "units" to change units, and
+change units before setting snap to keep this message from appearing.
+Cell dev_nfet_01v8_1_0p15 read from current working directory
+Cell dev_pfet_01v8_2_0p15 read from current working directory
+Cell dev_pfet_01v8_lvt_2_0p35 read from current working directory
+Cell dev_pfet_01v8_4_2 read from current working directory
+Cell dev_pfet_01v8_lvt_4_1 read from current working directory
+Cell dev_nfet_01v8_4_2 read from current working directory
+Cell dev_pfet_01v8_24_2 read from current working directory
+Cell dev_nfet_01v8_20_1 read from current working directory
+Cell dev_cap_mim_m3_1_14_14 read from current working directory
+Cell dev_res_xhigh_po_0p35_0p35_30 read from current working directory
+Cell dev_res_xhigh_po_0p35_0p35_14 read from current working directory
+Cell dev_cap_mim_m3_1_26_26 read from current working directory
+Loading DRC CIF style.
+DRC_COUNT 0
+No errors found.
+DRC_DETAILS 
+Extracting dev_cap_mim_m3_1_26_26 into dev_cap_mim_m3_1_26_26.ext:
+Processing dev_cap_mim_m3_1_26_26
+Extracting dev_res_xhigh_po_0p35_0p35_14 into dev_res_xhigh_po_0p35_0p35_14.ext:
+Processing dev_res_xhigh_po_0p35_0p35_14
+Extracting dev_res_xhigh_po_0p35_0p35_30 into dev_res_xhigh_po_0p35_0p35_30.ext:
+Processing dev_res_xhigh_po_0p35_0p35_30
+Extracting dev_cap_mim_m3_1_14_14 into dev_cap_mim_m3_1_14_14.ext:
+Processing dev_cap_mim_m3_1_14_14
+Extracting dev_nfet_01v8_1_0p15 into dev_nfet_01v8_1_0p15.ext:
+Processing dev_nfet_01v8_1_0p15
+Extracting dev_pfet_01v8_2_0p15 into dev_pfet_01v8_2_0p15.ext:
+Processing dev_pfet_01v8_2_0p15
+Extracting dev_pfet_01v8_lvt_2_0p35 into dev_pfet_01v8_lvt_2_0p35.ext:
+Processing dev_pfet_01v8_lvt_2_0p35
+Extracting dev_pfet_01v8_4_2 into dev_pfet_01v8_4_2.ext:
+Processing dev_pfet_01v8_4_2
+Extracting dev_pfet_01v8_lvt_4_1 into dev_pfet_01v8_lvt_4_1.ext:
+Processing dev_pfet_01v8_lvt_4_1
+Extracting dev_nfet_01v8_4_2 into dev_nfet_01v8_4_2.ext:
+Processing dev_nfet_01v8_4_2
+Extracting dev_nfet_01v8_20_1 into dev_nfet_01v8_20_1.ext:
+Processing dev_nfet_01v8_20_1
+Extracting dev_pfet_01v8_24_2 into dev_pfet_01v8_24_2.ext:
+Processing dev_pfet_01v8_24_2
+Extracting tt_um_jonah_suarez_dac into tt_um_jonah_suarez_dac.ext:
+Processing tt_um_jonah_suarez_dac
+exttospice finished.
+   Generating output for cell dev_cap_mim_m3_1_26_26
+   Generating output for cell dev_res_xhigh_po_0p35_0p35_14
+   Generating output for cell dev_res_xhigh_po_0p35_0p35_30
+   Generating output for cell dev_cap_mim_m3_1_14_14
+   Generating output for cell dev_nfet_01v8_1_0p15
+   Generating output for cell dev_pfet_01v8_2_0p15
+   Generating output for cell dev_pfet_01v8_lvt_2_0p35
+   Generating output for cell dev_pfet_01v8_4_2
+   Generating output for cell dev_pfet_01v8_lvt_4_1
+   Generating output for cell dev_nfet_01v8_4_2
+   Generating output for cell dev_nfet_01v8_20_1
+   Generating output for cell dev_pfet_01v8_24_2
+   Generating output for cell tt_um_jonah_suarez_dac
+Generating LEF output tt_um_jonah_suarez_dac.lef for cell tt_um_jonah_suarez_dac:
+Diagnostic:  Write LEF header for cell tt_um_jonah_suarez_dac
+Diagnostic:  Writing LEF output for cell tt_um_jonah_suarez_dac
+Diagnostic:  Scale value is 0.005000

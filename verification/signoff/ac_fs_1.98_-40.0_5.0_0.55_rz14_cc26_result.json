@@ -1,0 +1,17 @@
+{
+  "name": "ac_fs_1.98_-40.0_5.0_0.55_rz14_cc26",
+  "corner": "fs",
+  "supply": 1.98,
+  "temp": -40.0,
+  "load": 5.0,
+  "vin": 0.55,
+  "rz_l": 14,
+  "cc_size": 26,
+  "netlist": "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice",
+  "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+  "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+  "dc_gain_db": 76.04484057154113,
+  "unity_gain_hz": 6243091.979325396,
+  "phase_margin_deg": 77.84222025999273,
+  "passes_60deg": true
+}

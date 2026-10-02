@@ -1,0 +1,71 @@
+
+Magic 8.3 revision 678 - Compiled on Mon Jul 27 03:07:22 PM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/foss/designs/outputs/suarez_dac/build/gds_check/check.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: tt_um_jonah_suarez_dac
+Reading "dev_cap_mim_m3_1_26_26".
+Reading "dev_res_xhigh_po_0p35_0p35_14".
+Reading "dev_res_xhigh_po_0p35_0p35_30".
+Reading "dev_cap_mim_m3_1_14_14".
+Reading "dev_nfet_01v8_1_0p15".
+Reading "dev_pfet_01v8_2_0p15".
+Reading "dev_pfet_01v8_lvt_2_0p35".
+Reading "dev_pfet_01v8_4_2".
+Reading "dev_pfet_01v8_lvt_4_1".
+Reading "dev_nfet_01v8_4_2".
+Reading "dev_nfet_01v8_20_1".
+Reading "dev_pfet_01v8_24_2".
+Reading "tt_um_jonah_suarez_dac".
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+GDS_DRC_COUNT 0
+GDS_DRC_DETAILS 
+Extracting tt_um_jonah_suarez_dac_flat into tt_um_jonah_suarez_dac_flat.ext:
+Processing tt_um_jonah_suarez_dac_flat
+Reading extract file.
+Warning:  Ports "VGND" and "uo_out[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uo_out[0]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_out[0]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[7]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[6]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[5]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[4]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[3]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[2]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[1]" are electrically shorted.
+Warning:  Ports "VGND" and "uio_oe[0]" are electrically shorted.
+Building flattened netlist.
+Running antenna checks.
+antennacheck finished.
+ANTENNA_COUNT 0
+exttospice finished.

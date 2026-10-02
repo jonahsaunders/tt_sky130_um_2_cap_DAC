@@ -1,0 +1,9 @@
+{
+  "source": "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc_raw.spice",
+  "target": "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice",
+  "resistors_before": 5596,
+  "resistors_after": 1314,
+  "eliminated_capacitance_free_nodes": 2990,
+  "protected_nodes": 405,
+  "approximation": "none; exact star-mesh at all frequencies for removed nodes without capacitance"
+}

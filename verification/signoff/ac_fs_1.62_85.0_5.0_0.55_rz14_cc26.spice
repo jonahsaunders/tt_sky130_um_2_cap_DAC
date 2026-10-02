@@ -1,0 +1,77 @@
+* Suarez DAC extracted-layout qualification
+.include /foss/designs/outputs/suarez_dac/sim/models/sky130_fs.spice
+.include /foss/designs/outputs/suarez_dac/verification/signoff/ac_fs_1.62_85.0_5.0_0.55_rz14_cc26_loop.spice
+.temp 85.0
+VDD vdd 0 1.62
+VHI refh 0 .9
+VLO refl 0 .2
+RHI refh hi 500
+RLO refl lo 500
+CHI hi 0 5p
+CLO lo 0 5p
+ROUT out pad 500
+COUT pad 0 5.0p
+RLOAD pad 0 10Meg
+Rfixture_clk unused_clk 0 1T
+Rfixture_ena unused_ena 0 1T
+Rfixture_rst_n unused_rst_n 0 1T
+Rfixture_ua_3_ unused_ua_3_ 0 1T
+Rfixture_ua_4_ unused_ua_4_ 0 1T
+Rfixture_ua_5_ unused_ua_5_ 0 1T
+Rfixture_ua_6_ unused_ua_6_ 0 1T
+Rfixture_ua_7_ unused_ua_7_ 0 1T
+Rfixture_ui_in_3_ unused_ui_in_3_ 0 1T
+Rfixture_ui_in_4_ unused_ui_in_4_ 0 1T
+Rfixture_ui_in_5_ unused_ui_in_5_ 0 1T
+Rfixture_ui_in_6_ unused_ui_in_6_ 0 1T
+Rfixture_ui_in_7_ unused_ui_in_7_ 0 1T
+Rfixture_uio_in_0_ unused_uio_in_0_ 0 1T
+Rfixture_uio_in_1_ unused_uio_in_1_ 0 1T
+Rfixture_uio_in_2_ unused_uio_in_2_ 0 1T
+Rfixture_uio_in_3_ unused_uio_in_3_ 0 1T
+Rfixture_uio_in_4_ unused_uio_in_4_ 0 1T
+Rfixture_uio_in_5_ unused_uio_in_5_ 0 1T
+Rfixture_uio_in_6_ unused_uio_in_6_ 0 1T
+Rfixture_uio_in_7_ unused_uio_in_7_ 0 1T
+Rfixture_uio_oe_0_ unused_uio_oe_0_ 0 1T
+Rfixture_uio_oe_1_ unused_uio_oe_1_ 0 1T
+Rfixture_uio_oe_2_ unused_uio_oe_2_ 0 1T
+Rfixture_uio_oe_3_ unused_uio_oe_3_ 0 1T
+Rfixture_uio_oe_4_ unused_uio_oe_4_ 0 1T
+Rfixture_uio_oe_5_ unused_uio_oe_5_ 0 1T
+Rfixture_uio_oe_6_ unused_uio_oe_6_ 0 1T
+Rfixture_uio_oe_7_ unused_uio_oe_7_ 0 1T
+Rfixture_uio_out_0_ unused_uio_out_0_ 0 1T
+Rfixture_uio_out_1_ unused_uio_out_1_ 0 1T
+Rfixture_uio_out_2_ unused_uio_out_2_ 0 1T
+Rfixture_uio_out_3_ unused_uio_out_3_ 0 1T
+Rfixture_uio_out_4_ unused_uio_out_4_ 0 1T
+Rfixture_uio_out_5_ unused_uio_out_5_ 0 1T
+Rfixture_uio_out_6_ unused_uio_out_6_ 0 1T
+Rfixture_uio_out_7_ unused_uio_out_7_ 0 1T
+Rfixture_uo_out_0_ unused_uo_out_0_ 0 1T
+Rfixture_uo_out_1_ unused_uo_out_1_ 0 1T
+Rfixture_uo_out_2_ unused_uo_out_2_ 0 1T
+Rfixture_uo_out_3_ unused_uo_out_3_ 0 1T
+Rfixture_uo_out_4_ unused_uo_out_4_ 0 1T
+Rfixture_uo_out_5_ unused_uo_out_5_ 0 1T
+Rfixture_uo_out_6_ unused_uo_out_6_ 0 1T
+Rfixture_uo_out_7_ unused_uo_out_7_ 0 1T
+XDUT unused_clk unused_ena unused_rst_n hi out lo unused_ua_3_ unused_ua_4_ unused_ua_5_ unused_ua_6_ unused_ua_7_ h l s unused_ui_in_3_ unused_ui_in_4_ unused_ui_in_5_ unused_ui_in_6_ unused_ui_in_7_ unused_uio_in_0_ unused_uio_in_1_ unused_uio_in_2_ unused_uio_in_3_ unused_uio_in_4_ unused_uio_in_5_ unused_uio_in_6_ unused_uio_in_7_ unused_uio_oe_0_ unused_uio_oe_1_ unused_uio_oe_2_ unused_uio_oe_3_ unused_uio_oe_4_ unused_uio_oe_5_ unused_uio_oe_6_ unused_uio_oe_7_ unused_uio_out_0_ unused_uio_out_1_ unused_uio_out_2_ unused_uio_out_3_ unused_uio_out_4_ unused_uio_out_5_ unused_uio_out_6_ unused_uio_out_7_ unused_uo_out_0_ unused_uo_out_1_ unused_uo_out_2_ unused_uo_out_3_ unused_uo_out_4_ unused_uo_out_5_ unused_uo_out_6_ unused_uo_out_7_ 0 vdd tt_um_jonah_suarez_dac_pex
+.options method=trap reltol=1e-5 abstol=1e-13 vntol=1e-7
+VH h 0 0
+VL l 0 0
+VS s 0 0
+VFORCE XDUT.HOLD 0 0.55
+VINJECT XDUT.FBX XDUT.ua[1].t4 0 AC 1
+EOBS return 0 XDUT.ua[1].t4 0 1
+.control
+set wr_vecnames
+set wr_singlescale
+op
+wrdata /foss/designs/outputs/suarez_dac/verification/signoff/ac_fs_1.62_85.0_5.0_0.55_rz14_cc26_op.txt v(out) i(VDD)
+ac dec 100 1 1G
+wrdata /foss/designs/outputs/suarez_dac/verification/signoff/ac_fs_1.62_85.0_5.0_0.55_rz14_cc26.txt v(return) v(XDUT.FBX)
+quit
+.endc
+.end

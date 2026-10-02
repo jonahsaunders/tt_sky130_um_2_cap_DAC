@@ -1,0 +1,46 @@
+project:
+  title: Suarez serial charge-sharing DAC
+  author: Jonah
+  discord: ''
+  description: Two matched capacitor banks with external phase controls and buffered
+    analog output
+  language: Analog
+  clock_hz: 0
+  tiles: 1x2
+  analog_pins: 3
+  uses_vapwr: false
+  top_module: tt_um_jonah_suarez_dac
+  source_files:
+  - project.v
+pinout:
+  ui[0]: CHARGE_HIGH
+  ui[1]: CHARGE_LOW
+  ui[2]: SHARE
+  ui[3]: ''
+  ui[4]: ''
+  ui[5]: ''
+  ui[6]: ''
+  ui[7]: ''
+  uo[0]: ''
+  uo[1]: ''
+  uo[2]: ''
+  uo[3]: ''
+  uo[4]: ''
+  uo[5]: ''
+  uo[6]: ''
+  uo[7]: ''
+  uio[0]: ''
+  uio[1]: ''
+  uio[2]: ''
+  uio[3]: ''
+  uio[4]: ''
+  uio[5]: ''
+  uio[6]: ''
+  uio[7]: ''
+  ua[0]: VREFH (0.9 V nominal)
+  ua[1]: Buffered DAC output
+  ua[2]: VREFL (0.2 V nominal)
+  ua[3]: ''
+  ua[4]: ''
+  ua[5]: ''
+yaml_version: 6

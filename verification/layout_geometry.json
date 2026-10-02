@@ -1,0 +1,42 @@
+{
+  "macro_um": [
+    161,
+    225.76
+  ],
+  "bbox_um": [
+    0.0,
+    0.0,
+    161.0,
+    225.76
+  ],
+  "metal5_present": false,
+  "capacitor_banks": {
+    "SAMPLE": {
+      "units": 16,
+      "centroid_um": [
+        77.54999999999998,
+        113.0
+      ]
+    },
+    "HOLD": {
+      "units": 16,
+      "centroid_um": [
+        77.54999999999998,
+        113.0
+      ]
+    }
+  },
+  "resistor_implants": [
+    {
+      "cell": "dev_res_xhigh_po_0p35_0p35_14",
+      "width_um": 1.27,
+      "height_um": 18.56
+    },
+    {
+      "cell": "dev_res_xhigh_po_0p35_0p35_30",
+      "width_um": 1.27,
+      "height_um": 34.56
+    }
+  ],
+  "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306"
+}

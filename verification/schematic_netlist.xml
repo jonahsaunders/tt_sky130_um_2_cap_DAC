@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jonah\Documents\Codex\2026-10-02\how-x20\outputs\suarez_dac\schematic\suarez_dac.kicad_sch</source>
+    <date>2026-10-02T13:19:49</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Suarez two-capacitor DAC</title>
+        <company>SKY130 / Tiny Tapeout</company>
+        <rev>0.1</rev>
+        <date/>
+        <source>suarez_dac.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>6.454 pF</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">C_SAMPLE</field>
+        <field name="PDK_Model">sky130_fd_pr__cap_mim_m3_1</field>
+        <field name="W_um">14</field>
+        <field name="L_um">14</field>
+        <field name="Multiplicity">16</field>
+        <field name="Bulk"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="C_Small" description=""/>
+      <property name="Role" value="C_SAMPLE"/>
+      <property name="PDK_Model" value="sky130_fd_pr__cap_mim_m3_1"/>
+      <property name="W_um" value="14"/>
+      <property name="L_um" value="14"/>
+      <property name="Multiplicity" value="16"/>
+      <property name="Bulk" value=""/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5ca3c96-6fce-46c1-9a16-3401bd4876e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>6.454 pF</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">C_HOLD</field>
+        <field name="PDK_Model">sky130_fd_pr__cap_mim_m3_1</field>
+        <field name="W_um">14</field>
+        <field name="L_um">14</field>
+        <field name="Multiplicity">16</field>
+        <field name="Bulk"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="C_Small" description=""/>
+      <property name="Role" value="C_HOLD"/>
+      <property name="PDK_Model" value="sky130_fd_pr__cap_mim_m3_1"/>
+      <property name="W_um" value="14"/>
+      <property name="L_um" value="14"/>
+      <property name="Multiplicity" value="16"/>
+      <property name="Bulk" value=""/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ac59526-9aa6-44e6-b0ed-e933a1ec6540</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1.373 pF</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">C_COMP</field>
+        <field name="PDK_Model">sky130_fd_pr__cap_mim_m3_1</field>
+        <field name="W_um">26</field>
+        <field name="L_um">26</field>
+        <field name="Multiplicity">1</field>
+        <field name="Bulk"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="C_Small_H" description=""/>
+      <property name="Role" value="C_COMP"/>
+      <property name="PDK_Model" value="sky130_fd_pr__cap_mim_m3_1"/>
+      <property name="W_um" value="26"/>
+      <property name="L_um" value="26"/>
+      <property name="Multiplicity" value="1"/>
+      <property name="Bulk" value=""/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50eea9da-f539-45f5-a061-1646de40de8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M1">
+      <value>1 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_INV_H</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">1</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_INV_H"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="1"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90bda2ca-5449-495c-a05c-8edc4c744d5a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M2">
+      <value>2 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_INV_H</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8</field>
+        <field name="W_um">2</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_INV_H"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8"/>
+      <property name="W_um" value="2"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11829d42-36ac-4726-8315-b987ae8e32c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M3">
+      <value>1 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_INV_L</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">1</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_INV_L"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="1"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43bedd44-b734-4be0-8025-8be0d60ea278</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M4">
+      <value>2 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_INV_L</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8</field>
+        <field name="W_um">2</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_INV_L"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8"/>
+      <property name="W_um" value="2"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e12982c-65dd-4f02-bfb9-22dbc4fd74f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M5">
+      <value>1 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_INV_S</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">1</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_INV_S"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="1"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f1d4466-1a35-40a4-b940-094a611aa3aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M6">
+      <value>2 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_INV_S</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8</field>
+        <field name="W_um">2</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_INV_S"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8"/>
+      <property name="W_um" value="2"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a04b7da-e4d1-450e-ac99-e1a5339f50d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M7">
+      <value>1 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_SW_H</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">1</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_SW_H"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="1"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afd5b487-a48b-4530-95c6-872cc8e26346</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M8">
+      <value>2 / 0.35 um LVT</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_SW_H</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8_lvt</field>
+        <field name="W_um">2</field>
+        <field name="L_um">0.35</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS_TG3" description=""/>
+      <property name="Role" value="MP_SW_H"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8_lvt"/>
+      <property name="W_um" value="2"/>
+      <property name="L_um" value="0.35"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96b9d763-a791-4d52-99c2-384800dbf604</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M9">
+      <value>1 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_SW_L</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">1</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_SW_L"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="1"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8278185-de05-47a9-b3a5-0177e33cdce8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M10">
+      <value>2 / 0.35 um LVT</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_SW_L</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8_lvt</field>
+        <field name="W_um">2</field>
+        <field name="L_um">0.35</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS_TG3" description=""/>
+      <property name="Role" value="MP_SW_L"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8_lvt"/>
+      <property name="W_um" value="2"/>
+      <property name="L_um" value="0.35"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a37e5e46-ca9c-4348-9069-7d560f3b9592</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M11">
+      <value>1 / 0.15 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_SW_S</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">1</field>
+        <field name="L_um">0.15</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_SW_S"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="1"/>
+      <property name="L_um" value="0.15"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ea63529-772e-4fae-b6b6-2ae12d37fe5b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M12">
+      <value>2 / 0.35 um LVT</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_SW_S</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8_lvt</field>
+        <field name="W_um">2</field>
+        <field name="L_um">0.35</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS_TG3" description=""/>
+      <property name="Role" value="MP_SW_S"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8_lvt"/>
+      <property name="W_um" value="2"/>
+      <property name="L_um" value="0.35"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1cb5dc3-ae55-4e68-95ec-cbbde79bffb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M13">
+      <value>4 / 2 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_BIAS</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8</field>
+        <field name="W_um">4</field>
+        <field name="L_um">2</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_BIAS"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8"/>
+      <property name="W_um" value="4"/>
+      <property name="L_um" value="2"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a199c895-6a1a-46f3-987e-462b3dce8b02</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M14">
+      <value>4 / 2 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_TAIL</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8</field>
+        <field name="W_um">4</field>
+        <field name="L_um">2</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_TAIL"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8"/>
+      <property name="W_um" value="4"/>
+      <property name="L_um" value="2"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87941cd8-3fe7-4a25-a0ab-be06e756a5f0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M15">
+      <value>4 / 1 um LVT</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_INP</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8_lvt</field>
+        <field name="W_um">4</field>
+        <field name="L_um">1</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_INP"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8_lvt"/>
+      <property name="W_um" value="4"/>
+      <property name="L_um" value="1"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9464d5a-4d03-4f0d-b695-cca1ce6f57fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M16">
+      <value>4 / 1 um LVT</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_INM</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8_lvt</field>
+        <field name="W_um">4</field>
+        <field name="L_um">1</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_INM"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8_lvt"/>
+      <property name="W_um" value="4"/>
+      <property name="L_um" value="1"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea2abfe7-0450-42a4-92b0-de014e5095c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M17">
+      <value>4 / 2 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_MIRROR</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">4</field>
+        <field name="L_um">2</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_MIRROR"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="4"/>
+      <property name="L_um" value="2"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01408f7a-6206-4151-aad9-86098b897224</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M18">
+      <value>4 / 2 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_LOAD</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">4</field>
+        <field name="L_um">2</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_LOAD"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="4"/>
+      <property name="L_um" value="2"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0203cef5-e710-4a79-a4c1-9449038e5aa8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M19">
+      <value>24 / 2 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MP_OUT</field>
+        <field name="PDK_Model">sky130_fd_pr__pfet_01v8</field>
+        <field name="W_um">24</field>
+        <field name="L_um">2</field>
+        <field name="Bulk">VDPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="PMOS3" description=""/>
+      <property name="Role" value="MP_OUT"/>
+      <property name="PDK_Model" value="sky130_fd_pr__pfet_01v8"/>
+      <property name="W_um" value="24"/>
+      <property name="L_um" value="2"/>
+      <property name="Bulk" value="VDPWR"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bf401f7-c151-4e60-bd3b-7a8dab2ed954</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M20">
+      <value>20 / 1 um</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">MN_OUT</field>
+        <field name="PDK_Model">sky130_fd_pr__nfet_01v8</field>
+        <field name="W_um">20</field>
+        <field name="L_um">1</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="NMOS3" description=""/>
+      <property name="Role" value="MN_OUT"/>
+      <property name="PDK_Model" value="sky130_fd_pr__nfet_01v8"/>
+      <property name="W_um" value="20"/>
+      <property name="L_um" value="1"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f94d1cd-fa52-4fba-adfb-601f0d494fda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>171 kR nominal</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">RB1</field>
+        <field name="PDK_Model">sky130_fd_pr__res_xhigh_po_0p35</field>
+        <field name="W_um">0.35</field>
+        <field name="L_um">30</field>
+        <field name="Multiplicity">1</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="R_Small_US" description=""/>
+      <property name="Role" value="RB1"/>
+      <property name="PDK_Model" value="sky130_fd_pr__res_xhigh_po_0p35"/>
+      <property name="W_um" value="0.35"/>
+      <property name="L_um" value="30"/>
+      <property name="Multiplicity" value="1"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb4e6ccb-e73d-4d11-9fc9-0a6c7bd213f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>171 kR nominal</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">RB2</field>
+        <field name="PDK_Model">sky130_fd_pr__res_xhigh_po_0p35</field>
+        <field name="W_um">0.35</field>
+        <field name="L_um">30</field>
+        <field name="Multiplicity">1</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="R_Small_US" description=""/>
+      <property name="Role" value="RB2"/>
+      <property name="PDK_Model" value="sky130_fd_pr__res_xhigh_po_0p35"/>
+      <property name="W_um" value="0.35"/>
+      <property name="L_um" value="30"/>
+      <property name="Multiplicity" value="1"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb27ab39-99c6-48bd-bab7-a00d3991dbaf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>80 kR nominal</value>
+      <datasheet>https://skywater-pdk.readthedocs.io/</datasheet>
+      <fields>
+        <field name="Role">RZ</field>
+        <field name="PDK_Model">sky130_fd_pr__res_xhigh_po_0p35</field>
+        <field name="W_um">0.35</field>
+        <field name="L_um">14</field>
+        <field name="Multiplicity">1</field>
+        <field name="Bulk">VGND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sky130" part="R_Small_US_H" description=""/>
+      <property name="Role" value="RZ"/>
+      <property name="PDK_Model" value="sky130_fd_pr__res_xhigh_po_0p35"/>
+      <property name="W_um" value="0.35"/>
+      <property name="L_um" value="14"/>
+      <property name="Multiplicity" value="1"/>
+      <property name="Bulk" value="VGND"/>
+      <property name="Sheetname" value="suarez_dac"/>
+      <property name="Sheetfile" value="suarez_dac.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>040cb879-7312-4d8c-b3ea-a28e5e1f3d0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Sky130" part="C_Small">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="C_Small_H">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small_H</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="NMOS3">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">NMOS3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="PMOS3">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PMOS3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="PMOS_TG3">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PMOS_TG3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="R_Small_US">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sky130" part="R_Small_US_H">
+      <docs>https://skywater-pdk.readthedocs.io/</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US_H</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://skywater-pdk.readthedocs.io/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Sky130">
+      <uri>${KIPRJMOD}/Sky130.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AMP" class="Default">
+      <node ref="M15" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M18" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M20" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/BIAS" class="Default">
+      <node ref="M13" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M13" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M14" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M19" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/COMP" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/HOLD" class="Default">
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="M11" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M12" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M15" pin="2" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/H_BAR" class="Default">
+      <node ref="M1" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M2" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M8" pin="2" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/L_BAR" class="Default">
+      <node ref="M10" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M3" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M4" pin="1" pinfunction="D_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/MIRROR" class="Default">
+      <node ref="M16" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M17" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M17" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M18" pin="2" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="8" name="/RBMID" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/SAMPLE" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="M10" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M11" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M12" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M7" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M8" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M9" pin="3" pinfunction="S_3" pintype="passive"/>
+    </net>
+    <net code="10" name="/S_BAR" class="Default">
+      <node ref="M12" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M5" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M6" pin="1" pinfunction="D_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/TAIL" class="Default">
+      <node ref="M14" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M15" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M16" pin="3" pinfunction="S_3" pintype="passive"/>
+    </net>
+    <net code="12" name="/ua[0]" class="Default">
+      <node ref="M7" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M8" pin="1" pinfunction="D_1" pintype="passive"/>
+    </net>
+    <net code="13" name="/ua[1]" class="Default">
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="M16" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M19" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M20" pin="1" pinfunction="D_1" pintype="passive"/>
+    </net>
+    <net code="14" name="/ua[2]" class="Default">
+      <node ref="M10" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="M9" pin="1" pinfunction="D_1" pintype="passive"/>
+    </net>
+    <net code="15" name="/ui_in[0]" class="Default">
+      <node ref="M1" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M7" pin="2" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="16" name="/ui_in[1]" class="Default">
+      <node ref="M3" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M4" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M9" pin="2" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="17" name="/ui_in[2]" class="Default">
+      <node ref="M11" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M5" pin="2" pinfunction="G_2" pintype="passive"/>
+      <node ref="M6" pin="2" pinfunction="G_2" pintype="passive"/>
+    </net>
+    <net code="18" name="VDPWR" class="Default">
+      <node ref="M13" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M14" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M19" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M2" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M4" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M6" pin="3" pinfunction="S_3" pintype="passive"/>
+    </net>
+    <net code="19" name="VGND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M17" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M18" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M20" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M3" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="M5" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

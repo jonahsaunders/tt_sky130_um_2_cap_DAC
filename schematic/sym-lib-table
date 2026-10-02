@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Sky130") (type "KiCad") (uri "${KIPRJMOD}/Sky130.kicad_sym") (options "") (descr "SKY130 three-terminal circuit symbols")))

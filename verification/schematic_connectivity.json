@@ -1,0 +1,9 @@
+{
+  "device_count": 26,
+  "verified_pin_connections": 72,
+  "mismatches": [],
+  "visible_mos_pin_count": 3,
+  "bulk_policy": "All NMOS bulks VGND; all PMOS bulks VDPWR. Three-terminal visible MOS symbols; bulk ties preserved in silicon and netlists.",
+  "schematic_sha256": "662c697da9c29c6451b1d15dc3dca6c2c95c7e7cc909c638fa55ffe4c06eab36",
+  "exported_netlist_sha256": "6d2f888a92ede56f2ba31d576ec767a2d34121b059f11f1be3f9f46578cee890"
+}

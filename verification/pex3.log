@@ -1,0 +1,59 @@
+
+Magic 8.3 revision 678 - Compiled on Mon Jul 27 03:07:22 PM CEST 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/foss/designs/outputs/suarez_dac/build/pex3/pex_tt_um_jonah_suarez_dac.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: tt_um_jonah_suarez_dac
+Reading "dev_cap_mim_m3_1_26_26".
+Reading "dev_res_xhigh_po_0p35_0p35_14".
+Reading "dev_res_xhigh_po_0p35_0p35_30".
+Reading "dev_cap_mim_m3_1_14_14".
+Reading "dev_nfet_01v8_1_0p15".
+Reading "dev_pfet_01v8_2_0p15".
+Reading "dev_pfet_01v8_lvt_2_0p35".
+Reading "dev_pfet_01v8_4_2".
+Reading "dev_pfet_01v8_lvt_4_1".
+Reading "dev_nfet_01v8_4_2".
+Reading "dev_nfet_01v8_20_1".
+Reading "dev_pfet_01v8_24_2".
+Reading "tt_um_jonah_suarez_dac".
+Extracting tt_um_jonah_suarez_dac_pex into /foss/designs/outputs/suarez_dac/build/pex3/tt_um_jonah_suarez_dac_pex.ext:
+Processing tt_um_jonah_suarez_dac_pex
+Processing cell tt_um_jonah_suarez_dac_pex for resistance extraction.
+Extracting BIAS
+Extracting H_BAR
+Extracting L_BAR
+Extracting S_BAR
+Extracting SAMPLE
+Extracting HOLD
+Extracting TAIL
+Extracting AMP
+Extracting MIRROR
+Extracting VGND
+Extracting VDPWR
+Extracting ui_in[0]
+Extracting ui_in[1]
+Extracting ui_in[2]
+Extracting ua[0]
+Extracting ua[2]
+Extracting ua[1]
+Total Nets: 67
+Nets extracted: 17 (0.253731)
+Nets output: 17 (0.253731)
+exttospice finished.

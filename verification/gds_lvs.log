@@ -1,0 +1,238 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_0p35 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_0p35 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_0p35 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_0p35 |Circuit 2: sky130_fd_pr__res_xhigh_po_0p35 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_0p35 and sky130_fd_pr__res_xhigh_po_0p35 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: clk
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ena
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: rst_n
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[3]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[4]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[5]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[6]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[7]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[3]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[4]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[5]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[6]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[7]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[0]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[1]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[2]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[3]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[4]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[5]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[6]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[7]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: clk
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ena
+Cell tt_um_jonah_suarez_dac (1) disconnected node: rst_n
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[3]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[4]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[5]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[6]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[7]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[0]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[1]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[2]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[3]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[4]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[5]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[6]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[7]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[3]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[4]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[5]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[6]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[7]
+Class tt_um_jonah_suarez_dac_flat (0):  Merged 30 parallel devices.
+Class tt_um_jonah_suarez_dac_flat (0):  Merged 1 series devices.
+Class tt_um_jonah_suarez_dac (1):  Merged 1 series devices.
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: clk
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ena
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: rst_n
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[3]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[4]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[5]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[6]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ua[7]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[3]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[4]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[5]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[6]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: ui_in[7]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[0]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[1]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[2]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[3]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[4]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[5]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[6]
+Cell tt_um_jonah_suarez_dac_flat (0) disconnected node: uio_in[7]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: clk
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ena
+Cell tt_um_jonah_suarez_dac (1) disconnected node: rst_n
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[3]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[4]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[5]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[6]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ui_in[7]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[0]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[1]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[2]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[3]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[4]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[5]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[6]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: uio_in[7]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[3]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[4]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[5]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[6]
+Cell tt_um_jonah_suarez_dac (1) disconnected node: ua[7]
+Subcircuit summary:
+Circuit 1: tt_um_jonah_suarez_dac_flat     |Circuit 2: tt_um_jonah_suarez_dac          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_0p35 (3->2)     |sky130_fd_pr__res_xhigh_po_0p35 (3->2)     
+r (24)                                     |r (24)                                     
+sky130_fd_pr__pfet_01v8_lvt (5)            |sky130_fd_pr__pfet_01v8_lvt (5)            
+sky130_fd_pr__cap_mim_m3_1 (33->3)         |sky130_fd_pr__cap_mim_m3_1 (33->3)         
+sky130_fd_pr__pfet_01v8 (6)                |sky130_fd_pr__pfet_01v8 (6)                
+sky130_fd_pr__nfet_01v8 (9)                |sky130_fd_pr__nfet_01v8 (9)                
+Number of devices: 49                      |Number of devices: 49                      
+Number of nets: 42                         |Number of nets: 42                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tt_um_jonah_suarez_dac_flat     |Circuit 2: tt_um_jonah_suarez_dac          
+-------------------------------------------|-------------------------------------------
+ua[0]                                      |ua[0]                                      
+ua[2]                                      |ua[2]                                      
+VDPWR                                      |VDPWR                                      
+ua[1]                                      |ua[1]                                      
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+uo_out[0]                                  |uo_out[0]                                  
+uo_out[1]                                  |uo_out[1]                                  
+uo_out[2]                                  |uo_out[2]                                  
+uo_out[3]                                  |uo_out[3]                                  
+uo_out[4]                                  |uo_out[4]                                  
+uo_out[5]                                  |uo_out[5]                                  
+uo_out[6]                                  |uo_out[6]                                  
+uo_out[7]                                  |uo_out[7]                                  
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+VGND                                       |VGND                                       
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+ui_in[3]                                   |ui_in[3]                                   
+ui_in[4]                                   |ui_in[4]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[7]                                   |ui_in[7]                                   
+uio_in[0]                                  |uio_in[0]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tt_um_jonah_suarez_dac_flat and tt_um_jonah_suarez_dac are equivalent.
+
+Final result: Circuits match uniquely.
+.

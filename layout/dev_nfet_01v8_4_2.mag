@@ -1,0 +1,86 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1790962023
+<< pwell >>
+rect -396 -579 396 579
+<< nmos >>
+rect -200 -431 200 369
+<< ndiff >>
+rect -258 357 -200 369
+rect -258 -419 -246 357
+rect -212 -419 -200 357
+rect -258 -431 -200 -419
+rect 200 357 258 369
+rect 200 -419 212 357
+rect 246 -419 258 357
+rect 200 -431 258 -419
+<< ndiffc >>
+rect -246 -419 -212 357
+rect 212 -419 246 357
+<< psubdiff >>
+rect -360 509 -264 543
+rect 264 509 360 543
+rect -360 447 -326 509
+rect 326 447 360 509
+rect -360 -509 -326 -447
+rect 326 -509 360 -447
+rect -360 -543 -264 -509
+rect 264 -543 360 -509
+<< psubdiffcont >>
+rect -264 509 264 543
+rect -360 -447 -326 447
+rect 326 -447 360 447
+rect -264 -543 264 -509
+<< poly >>
+rect -200 441 200 457
+rect -200 407 -184 441
+rect 184 407 200 441
+rect -200 369 200 407
+rect -200 -457 200 -431
+<< polycont >>
+rect -184 407 184 441
+<< locali >>
+rect -360 509 -264 543
+rect 264 509 360 543
+rect -360 447 -326 509
+rect 326 447 360 509
+rect -200 407 -184 441
+rect 184 407 200 441
+rect -246 357 -212 373
+rect -246 -435 -212 -419
+rect 212 357 246 373
+rect 212 -435 246 -419
+rect -360 -509 -326 -447
+rect 326 -509 360 -447
+rect -360 -543 -264 -509
+rect 264 -543 360 -509
+<< viali >>
+rect -184 407 184 441
+rect -246 -419 -212 357
+rect 212 -419 246 357
+<< metal1 >>
+rect -196 441 196 447
+rect -196 407 -184 441
+rect 184 407 196 441
+rect -196 401 196 407
+rect -252 357 -206 369
+rect -252 -419 -246 357
+rect -212 -419 -206 357
+rect -252 -431 -206 -419
+rect 206 357 252 369
+rect 206 -419 212 357
+rect 246 -419 252 357
+rect 206 -431 252 -419
+<< labels >>
+rlabel psubdiffcont 0 -526 0 -526 0 B
+port 1 nsew
+rlabel ndiffc -229 -31 -229 -31 0 D
+port 2 nsew
+rlabel ndiffc 229 -31 229 -31 0 S
+port 3 nsew
+rlabel polycont 0 424 0 424 0 G
+port 4 nsew
+<< properties >>
+string FIXED_BBOX -343 -526 343 526
+<< end >>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>pin_label_purposes_overlapping_drawing.rb.drc, input=/foss/designs/outputs/suarez_dac/gds/tt_um_jonah_suarez_dac.gds, topcell=</description>
+ <original-file/>
+ <generator>drc: script='tech-files/pin_label_purposes_overlapping_drawing.rb.drc'</generator>
+ <top-cell>tt_um_jonah_suarez_dac</top-cell>
+ <tags>
+ </tags>
+ <categories>
+ </categories>
+ <cells>
+  <cell>
+   <name>tt_um_jonah_suarez_dac</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+ </items>
+</report-database>

@@ -1,0 +1,9 @@
+{
+  "netlist_identical": true,
+  "gds_polygon_geometry_identical": true,
+  "layer_count": 26,
+  "scripts_executed": [
+    "build_circuit.py",
+    "build_layout.py"
+  ]
+}

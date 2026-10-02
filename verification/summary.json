@@ -1,0 +1,38 @@
+{
+  "status": "qualified experimental Tiny Tapeout analog macro",
+  "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+  "rc_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+  "official_prechecks_passed": 15,
+  "native_and_gds_lvs": "unique match without property errors",
+  "gds_drc_errors": 0,
+  "antenna_feedback_count": 0,
+  "schematic_erc_errors": 0,
+  "schematic_connections_checked": 72,
+  "full_code_sweeps": 9,
+  "full_code_measurements": 2304,
+  "pvt_probe_points": 30,
+  "mismatch_seeds": 32,
+  "stability_cases": 120,
+  "min_phase_margin_deg": 71.73947592771177,
+  "worst_full_endpoint_inl_lsb": 0.629426614220463,
+  "min_full_dnl_lsb": -0.03503528537128897,
+  "max_full_dnl_lsb": 0.6027992390015997,
+  "max_pvt_probe_raw_error_lsb": 0.5095050560691204,
+  "mc_offset_range_mv": [
+    -28.94222597992002,
+    25.236837862147976
+  ],
+  "mc_gain_error_range_pct": [
+    -0.2999035418437601,
+    0.4900002758030819
+  ],
+  "max_supply_current_ua": 281.38348399999995,
+  "max_reference_current_ma": 0.31162067699999996,
+  "limitations": [
+    "Offset/gain calibration required for precise absolute voltage",
+    "Discrete modeled PVT points and 32 mismatch seeds do not establish silicon yield",
+    "Full 0.7V buffer step can take about 6.4us at the cold/slow corner; actual DAC protocol is verified separately",
+    "References fixed at 0.2V and 0.9V; arbitrary reference range and clock-rate scaling unqualified",
+    "Continuous-time noise and kT/C estimate do not establish measured ENOB"
+  ]
+}

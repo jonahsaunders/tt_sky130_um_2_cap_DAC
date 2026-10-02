@@ -1,0 +1,26 @@
+* SKY130 transistor-level simulation
+.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.spice
+VDD vdd 0 1.8
+VHI refh 0 .9
+VLO refl 0 .2
+RHI refh hi 500
+RLO refl lo 500
+CHI hi 0 5p
+CLO lo 0 5p
+ROUT out pad 500
+COUT pad 0 5p
+RLOAD pad 0 10Meg
+XDUT 0 vdd 0 0 0 h l s 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 hi out lo 0 0 0 0 0 tt_um_jonah_suarez_dac
+VFORCE XDUT.HOLD 0 .2
+VH h 0 0
+VL l 0 0
+VS s 0 0
+.control
+set wr_vecnames
+set wr_singlescale
+dc VFORCE .15 1.0 .005
+wrdata /foss/designs/outputs/suarez_dac/verification/buffer_dc.txt v(out) v(pad) v(XDUT.BIAS) v(XDUT.TAIL)
+quit
+.endc
+.end

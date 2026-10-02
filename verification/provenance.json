@@ -1,0 +1,53 @@
+{
+  "iic_osic_tools": {
+    "image": "hpretl/iic-osic-tools:latest",
+    "release": "2026.07",
+    "magic": "8.3.678",
+    "ngspice": "46",
+    "netgen": "1.5.323",
+    "pdk": "sky130A from image",
+    "image_digest": "hpretl/iic-osic-tools@sha256:5d6adf1f437cd0f2f8f8614488ec3c247ba8c768f4663a25d5e997b30ccb13b0"
+  },
+  "kicad": "10.0 native Windows CLI",
+  "references": [
+    {
+      "name": "KiStack",
+      "url": "https://github.com/American-Embedded/kistack",
+      "commit": "8494dbde095669df081950cbb6b24d08a21e25b0",
+      "skills": [
+        "schematic",
+        "symbol",
+        "export"
+      ]
+    },
+    {
+      "name": "Tiny Tapeout support tools",
+      "url": "https://github.com/TinyTapeout/tt-support-tools",
+      "commit": "01d5d2814fa9dd61e9d211e0b235a4a592a9316a"
+    },
+    {
+      "name": "Tiny Tapeout Sky130 analog template",
+      "url": "https://github.com/TinyTapeout/ttsky-analog-template",
+      "commit": "301590bc02ffeabc2bb176489de9db0818a4b958"
+    },
+    {
+      "name": "Suarez, Gray, Hodges original technique",
+      "url": "https://www.researchgate.net/publication/3992574_An_all-MOS_charge-redistribution_AD_conversion_technique"
+    },
+    {
+      "name": "Tiny Tapeout analog specifications",
+      "url": "https://tinytapeout.com/specs/analog/"
+    }
+  ],
+  "schematic_review": "Grouped colored single-sheet A3 drawing, 50 mil labels, direct passive wiring, three-terminal MOS symbols. Full page plus core/control/buffer renders inspected. Fixed-width resistor bulk ties and MOS bulk ties remain explicit in SPICE and silicon.",
+  "maskhint_note": "The narrow-resistor PCells need a 1.27 um URPM mask hint. Official precheck imports GDS with gds maskhints yes; this preserves that implant and all final prechecks pass. Do not discard mask hints on import.",
+  "scope": "Final local design package and model-based qualification; no shuttle upload or purchase.",
+  "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+  "extraction": {
+    "source": "delivered GDS",
+    "mode": "coupled C and full RC",
+    "extresist_threshold_milliohm": 1000,
+    "extresist_minres_milliohm": 1000,
+    "extresist_mindelay_ps": 0
+  }
+}

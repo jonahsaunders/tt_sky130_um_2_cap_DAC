@@ -1,0 +1,29 @@
+[
+  {
+    "corner": "tt",
+    "temp_c": 27,
+    "integrated_buffer_noise_0p1hz_to_nyquist_uv_rms": 58.26883173006765,
+    "nyquist_hz": 10660.980810234541,
+    "wideband_noise_0p1hz_to_100mhz_uv_rms": 214.541922,
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df"
+  },
+  {
+    "corner": "ff",
+    "temp_c": 85,
+    "integrated_buffer_noise_0p1hz_to_nyquist_uv_rms": 58.089885190963535,
+    "nyquist_hz": 10660.980810234541,
+    "wideband_noise_0p1hz_to_100mhz_uv_rms": 235.003564,
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df"
+  },
+  {
+    "corner": "ss",
+    "temp_c": -40,
+    "integrated_buffer_noise_0p1hz_to_nyquist_uv_rms": 57.4461062162058,
+    "nyquist_hz": 10660.980810234541,
+    "wideband_noise_0p1hz_to_100mhz_uv_rms": 186.19415600000002,
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df"
+  }
+]

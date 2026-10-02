@@ -1,0 +1,54 @@
+* Suarez serial two-capacitor DAC; real SKY130 devices
+.subckt tt_um_jonah_suarez_dac VGND VDPWR clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
+XM1 H_BAR ui_in[0] VGND VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM2 H_BAR ui_in[0] VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=2 l=0.15 nf=1 m=1
+XM3 L_BAR ui_in[1] VGND VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM4 L_BAR ui_in[1] VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=2 l=0.15 nf=1 m=1
+XM5 S_BAR ui_in[2] VGND VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM6 S_BAR ui_in[2] VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=2 l=0.15 nf=1 m=1
+XM7 ua[0] ui_in[0] SAMPLE VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM8 ua[0] H_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt w=2 l=0.35 nf=1 m=1
+XM9 ua[2] ui_in[1] SAMPLE VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM10 ua[2] L_BAR SAMPLE VDPWR sky130_fd_pr__pfet_01v8_lvt w=2 l=0.35 nf=1 m=1
+XM11 SAMPLE ui_in[2] HOLD VGND sky130_fd_pr__nfet_01v8 w=1 l=0.15 nf=1 m=1
+XM12 SAMPLE S_BAR HOLD VDPWR sky130_fd_pr__pfet_01v8_lvt w=2 l=0.35 nf=1 m=1
+XM13 BIAS BIAS VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=4 l=2 nf=1 m=1
+XM14 TAIL BIAS VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=4 l=2 nf=1 m=1
+XM15 AMP HOLD TAIL VDPWR sky130_fd_pr__pfet_01v8_lvt w=4 l=1 nf=1 m=1
+XM16 MIRROR ua[1] TAIL VDPWR sky130_fd_pr__pfet_01v8_lvt w=4 l=1 nf=1 m=1
+XM17 MIRROR MIRROR VGND VGND sky130_fd_pr__nfet_01v8 w=4 l=2 nf=1 m=1
+XM18 AMP MIRROR VGND VGND sky130_fd_pr__nfet_01v8 w=4 l=2 nf=1 m=1
+XM19 ua[1] BIAS VDPWR VDPWR sky130_fd_pr__pfet_01v8 w=24 l=2 nf=1 m=1
+XM20 ua[1] AMP VGND VGND sky130_fd_pr__nfet_01v8 w=20 l=1 nf=1 m=1
+XR1 BIAS RBMID VGND sky130_fd_pr__res_xhigh_po_0p35 l=30 m=1
+XR2 RBMID VGND VGND sky130_fd_pr__res_xhigh_po_0p35 l=30 m=1
+XC1 SAMPLE VGND sky130_fd_pr__cap_mim_m3_1 w=14 l=14 m=16
+XC2 HOLD VGND sky130_fd_pr__cap_mim_m3_1 w=14 l=14 m=16
+XR3 AMP COMP VGND sky130_fd_pr__res_xhigh_po_0p35 l=14 m=1
+XC3 COMP ua[1] sky130_fd_pr__cap_mim_m3_1 w=26 l=26 m=1
+* Zero-ohm elements below represent metal shorts of interface ports, not fabricated resistors.
+R_TIE_0 uo_out[0] VGND 0
+R_TIE_1 uo_out[1] VGND 0
+R_TIE_2 uo_out[2] VGND 0
+R_TIE_3 uo_out[3] VGND 0
+R_TIE_4 uo_out[4] VGND 0
+R_TIE_5 uo_out[5] VGND 0
+R_TIE_6 uo_out[6] VGND 0
+R_TIE_7 uo_out[7] VGND 0
+R_TIE_8 uio_out[0] VGND 0
+R_TIE_9 uio_out[1] VGND 0
+R_TIE_10 uio_out[2] VGND 0
+R_TIE_11 uio_out[3] VGND 0
+R_TIE_12 uio_out[4] VGND 0
+R_TIE_13 uio_out[5] VGND 0
+R_TIE_14 uio_out[6] VGND 0
+R_TIE_15 uio_out[7] VGND 0
+R_TIE_16 uio_oe[0] VGND 0
+R_TIE_17 uio_oe[1] VGND 0
+R_TIE_18 uio_oe[2] VGND 0
+R_TIE_19 uio_oe[3] VGND 0
+R_TIE_20 uio_oe[4] VGND 0
+R_TIE_21 uio_oe[5] VGND 0
+R_TIE_22 uio_oe[6] VGND 0
+R_TIE_23 uio_oe[7] VGND 0
+.ends tt_um_jonah_suarez_dac

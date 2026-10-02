@@ -1,0 +1,3170 @@
+[
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block000"
+    ],
+    "seconds": 20.10407853126526,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block008"
+    ],
+    "seconds": 20.036822080612183,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block016"
+    ],
+    "seconds": 19.86798596382141,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block024"
+    ],
+    "seconds": 19.35530400276184,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block032"
+    ],
+    "seconds": 21.437443017959595,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block040"
+    ],
+    "seconds": 21.759652137756348,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block048"
+    ],
+    "seconds": 23.654325246810913,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block056"
+    ],
+    "seconds": 23.250757455825806,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block064"
+    ],
+    "seconds": 22.37569832801819,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block072"
+    ],
+    "seconds": 22.795690298080444,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block080"
+    ],
+    "seconds": 22.393094062805176,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block088"
+    ],
+    "seconds": 21.797561168670654,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block096"
+    ],
+    "seconds": 24.68075156211853,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block104"
+    ],
+    "seconds": 25.23632287979126,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block112"
+    ],
+    "seconds": 24.542975187301636,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block120"
+    ],
+    "seconds": 24.930081844329834,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block128"
+    ],
+    "seconds": 23.99123978614807,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block136"
+    ],
+    "seconds": 23.76418375968933,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block144"
+    ],
+    "seconds": 27.436649799346924,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block152"
+    ],
+    "seconds": 26.480794429779053,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block160"
+    ],
+    "seconds": 25.431316614151,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block168"
+    ],
+    "seconds": 25.66337513923645,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block176"
+    ],
+    "seconds": 23.685391426086426,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block184"
+    ],
+    "seconds": 23.978458881378174,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block192"
+    ],
+    "seconds": 24.38324809074402,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block200"
+    ],
+    "seconds": 25.01258373260498,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block208"
+    ],
+    "seconds": 23.133388996124268,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block216"
+    ],
+    "seconds": 22.052828788757324,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block224"
+    ],
+    "seconds": 22.631678104400635,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block232"
+    ],
+    "seconds": 22.134474277496338,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block240"
+    ],
+    "seconds": 18.13048028945923,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_tt_block248"
+    ],
+    "seconds": 19.84187960624695,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block000"
+    ],
+    "seconds": 19.077264547348022,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block008"
+    ],
+    "seconds": 17.474929809570312,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block016"
+    ],
+    "seconds": 18.118571996688843,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block024"
+    ],
+    "seconds": 17.803492546081543,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block032"
+    ],
+    "seconds": 18.8271586894989,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block040"
+    ],
+    "seconds": 19.402220010757446,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block048"
+    ],
+    "seconds": 17.61601185798645,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block056"
+    ],
+    "seconds": 19.246418476104736,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block064"
+    ],
+    "seconds": 19.355087518692017,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block072"
+    ],
+    "seconds": 17.821852684020996,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block080"
+    ],
+    "seconds": 18.300246715545654,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block088"
+    ],
+    "seconds": 17.095752000808716,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block096"
+    ],
+    "seconds": 17.726966381072998,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block104"
+    ],
+    "seconds": 18.12721538543701,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block112"
+    ],
+    "seconds": 17.388962030410767,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block120"
+    ],
+    "seconds": 17.245355129241943,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block128"
+    ],
+    "seconds": 17.177294492721558,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block136"
+    ],
+    "seconds": 16.813122749328613,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block144"
+    ],
+    "seconds": 16.871073961257935,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block152"
+    ],
+    "seconds": 16.821344137191772,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block160"
+    ],
+    "seconds": 16.615489959716797,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block168"
+    ],
+    "seconds": 15.97930121421814,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block176"
+    ],
+    "seconds": 13.84299373626709,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block184"
+    ],
+    "seconds": 13.887000799179077,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block192"
+    ],
+    "seconds": 14.23618769645691,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block200"
+    ],
+    "seconds": 14.070521593093872,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block208"
+    ],
+    "seconds": 13.531244277954102,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block216"
+    ],
+    "seconds": 13.717657089233398,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block224"
+    ],
+    "seconds": 13.97185230255127,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block232"
+    ],
+    "seconds": 14.346723556518555,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block240"
+    ],
+    "seconds": 14.104589939117432,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ss_block248"
+    ],
+    "seconds": 13.802100419998169,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block000"
+    ],
+    "seconds": 14.209986448287964,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block008"
+    ],
+    "seconds": 14.782582998275757,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block016"
+    ],
+    "seconds": 13.271851301193237,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block024"
+    ],
+    "seconds": 14.254801034927368,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block032"
+    ],
+    "seconds": 13.9755117893219,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block040"
+    ],
+    "seconds": 14.212827920913696,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block048"
+    ],
+    "seconds": 14.171796798706055,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block056"
+    ],
+    "seconds": 14.103080987930298,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block064"
+    ],
+    "seconds": 14.059038400650024,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block072"
+    ],
+    "seconds": 16.040252447128296,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block080"
+    ],
+    "seconds": 16.029630422592163,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block088"
+    ],
+    "seconds": 15.725177526473999,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block096"
+    ],
+    "seconds": 15.502638578414917,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block104"
+    ],
+    "seconds": 15.393044710159302,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block112"
+    ],
+    "seconds": 14.820918083190918,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block120"
+    ],
+    "seconds": 13.660949945449829,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block128"
+    ],
+    "seconds": 13.965407371520996,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block136"
+    ],
+    "seconds": 13.992947578430176,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block144"
+    ],
+    "seconds": 13.793372392654419,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block152"
+    ],
+    "seconds": 13.713888883590698,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block160"
+    ],
+    "seconds": 13.269479274749756,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block168"
+    ],
+    "seconds": 13.667541027069092,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block176"
+    ],
+    "seconds": 13.709673166275024,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block184"
+    ],
+    "seconds": 13.96547794342041,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block192"
+    ],
+    "seconds": 13.310265302658081,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block200"
+    ],
+    "seconds": 13.930516958236694,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block208"
+    ],
+    "seconds": 14.60427975654602,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block216"
+    ],
+    "seconds": 14.695053815841675,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block224"
+    ],
+    "seconds": 14.862838506698608,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block232"
+    ],
+    "seconds": 14.714101552963257,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block240"
+    ],
+    "seconds": 14.74036431312561,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_ff_block248"
+    ],
+    "seconds": 14.46289348602295,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block000"
+    ],
+    "seconds": 12.612107515335083,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block008"
+    ],
+    "seconds": 13.248229265213013,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block016"
+    ],
+    "seconds": 13.584482669830322,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block024"
+    ],
+    "seconds": 13.266995906829834,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block032"
+    ],
+    "seconds": 13.409552335739136,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block040"
+    ],
+    "seconds": 13.625546216964722,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block048"
+    ],
+    "seconds": 13.565198421478271,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block056"
+    ],
+    "seconds": 13.565298318862915,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block064"
+    ],
+    "seconds": 13.571785926818848,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block072"
+    ],
+    "seconds": 13.945854425430298,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block080"
+    ],
+    "seconds": 13.35516881942749,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block088"
+    ],
+    "seconds": 13.565493822097778,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block096"
+    ],
+    "seconds": 11.81224799156189,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block104"
+    ],
+    "seconds": 12.368478775024414,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block112"
+    ],
+    "seconds": 12.432593822479248,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block120"
+    ],
+    "seconds": 12.08673620223999,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block128"
+    ],
+    "seconds": 12.202897548675537,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block136"
+    ],
+    "seconds": 12.490774154663086,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block144"
+    ],
+    "seconds": 12.63526177406311,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block152"
+    ],
+    "seconds": 14.061850547790527,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block160"
+    ],
+    "seconds": 14.042543649673462,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block168"
+    ],
+    "seconds": 14.061529636383057,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block176"
+    ],
+    "seconds": 13.659671545028687,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block184"
+    ],
+    "seconds": 13.714637041091919,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block192"
+    ],
+    "seconds": 13.376722574234009,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block200"
+    ],
+    "seconds": 13.331398725509644,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block208"
+    ],
+    "seconds": 13.330608367919922,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block216"
+    ],
+    "seconds": 13.319468975067139,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block224"
+    ],
+    "seconds": 13.015142679214478,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block232"
+    ],
+    "seconds": 13.06960654258728,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block240"
+    ],
+    "seconds": 12.773698329925537,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_sf_block248"
+    ],
+    "seconds": 12.782452583312988,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block000"
+    ],
+    "seconds": 12.5068941116333,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block008"
+    ],
+    "seconds": 12.765000104904175,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block016"
+    ],
+    "seconds": 14.246235609054565,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block024"
+    ],
+    "seconds": 12.693496704101562,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block032"
+    ],
+    "seconds": 13.706272602081299,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block040"
+    ],
+    "seconds": 14.435316801071167,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block048"
+    ],
+    "seconds": 14.385994911193848,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block056"
+    ],
+    "seconds": 14.163357257843018,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block064"
+    ],
+    "seconds": 14.316551923751831,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block072"
+    ],
+    "seconds": 13.234082460403442,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block080"
+    ],
+    "seconds": 12.910324573516846,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block088"
+    ],
+    "seconds": 13.223487138748169,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block096"
+    ],
+    "seconds": 13.075066328048706,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block104"
+    ],
+    "seconds": 13.333343744277954,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block112"
+    ],
+    "seconds": 13.214834451675415,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block120"
+    ],
+    "seconds": 12.68808913230896,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block128"
+    ],
+    "seconds": 13.450985431671143,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block136"
+    ],
+    "seconds": 13.63796615600586,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block144"
+    ],
+    "seconds": 13.857306003570557,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block152"
+    ],
+    "seconds": 13.890185117721558,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block160"
+    ],
+    "seconds": 13.805251121520996,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block168"
+    ],
+    "seconds": 13.8384530544281,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block176"
+    ],
+    "seconds": 12.660935640335083,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block184"
+    ],
+    "seconds": 12.887248992919922,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block192"
+    ],
+    "seconds": 13.04530668258667,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block200"
+    ],
+    "seconds": 13.493365049362183,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block208"
+    ],
+    "seconds": 13.141935586929321,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block216"
+    ],
+    "seconds": 12.966696500778198,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block224"
+    ],
+    "seconds": 12.50212812423706,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block232"
+    ],
+    "seconds": 14.089669466018677,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block240"
+    ],
+    "seconds": 13.916883707046509,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_fs_block248"
+    ],
+    "seconds": 13.801706314086914,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block000"
+    ],
+    "seconds": 12.437310218811035,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block008"
+    ],
+    "seconds": 12.946630239486694,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block016"
+    ],
+    "seconds": 12.703649759292603,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block024"
+    ],
+    "seconds": 12.186999559402466,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block032"
+    ],
+    "seconds": 12.047807693481445,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block040"
+    ],
+    "seconds": 12.356014966964722,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block048"
+    ],
+    "seconds": 11.859087228775024,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block056"
+    ],
+    "seconds": 12.091305494308472,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block064"
+    ],
+    "seconds": 12.041918277740479,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block072"
+    ],
+    "seconds": 12.661405086517334,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block080"
+    ],
+    "seconds": 12.941871643066406,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block088"
+    ],
+    "seconds": 12.618328332901001,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block096"
+    ],
+    "seconds": 12.80196213722229,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block104"
+    ],
+    "seconds": 12.597944021224976,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block112"
+    ],
+    "seconds": 13.487829685211182,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block120"
+    ],
+    "seconds": 13.452150821685791,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block128"
+    ],
+    "seconds": 13.297719717025757,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block136"
+    ],
+    "seconds": 13.903773069381714,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block144"
+    ],
+    "seconds": 13.720032215118408,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block152"
+    ],
+    "seconds": 13.51158332824707,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block160"
+    ],
+    "seconds": 12.199506282806396,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block168"
+    ],
+    "seconds": 12.576299905776978,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block176"
+    ],
+    "seconds": 12.40697717666626,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block184"
+    ],
+    "seconds": 12.367920637130737,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block192"
+    ],
+    "seconds": 12.349058866500854,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block200"
+    ],
+    "seconds": 12.382689476013184,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block208"
+    ],
+    "seconds": 12.42026424407959,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block216"
+    ],
+    "seconds": 13.318910837173462,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block224"
+    ],
+    "seconds": 13.323477268218994,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block232"
+    ],
+    "seconds": 13.008817434310913,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block240"
+    ],
+    "seconds": 13.151863813400269,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_inl_block248"
+    ],
+    "seconds": 13.010012865066528,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block000"
+    ],
+    "seconds": 13.413180112838745,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block008"
+    ],
+    "seconds": 13.073560953140259,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block016"
+    ],
+    "seconds": 13.081922054290771,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block024"
+    ],
+    "seconds": 13.095539569854736,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block032"
+    ],
+    "seconds": 13.212990999221802,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block040"
+    ],
+    "seconds": 13.383652925491333,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block048"
+    ],
+    "seconds": 12.899870872497559,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block056"
+    ],
+    "seconds": 14.002677202224731,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block064"
+    ],
+    "seconds": 14.031195878982544,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block072"
+    ],
+    "seconds": 14.343265056610107,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block080"
+    ],
+    "seconds": 14.285041570663452,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block088"
+    ],
+    "seconds": 14.03200888633728,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block096"
+    ],
+    "seconds": 13.837448835372925,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block104"
+    ],
+    "seconds": 12.725200414657593,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block112"
+    ],
+    "seconds": 12.739902973175049,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block120"
+    ],
+    "seconds": 12.667951345443726,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block128"
+    ],
+    "seconds": 12.668480634689331,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block136"
+    ],
+    "seconds": 12.975199222564697,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block144"
+    ],
+    "seconds": 12.660655736923218,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block152"
+    ],
+    "seconds": 12.886915683746338,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block160"
+    ],
+    "seconds": 13.010884523391724,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block168"
+    ],
+    "seconds": 13.278652429580688,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block176"
+    ],
+    "seconds": 13.1554594039917,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block184"
+    ],
+    "seconds": 12.793152332305908,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block192"
+    ],
+    "seconds": 13.780686140060425,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block200"
+    ],
+    "seconds": 14.23376989364624,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block208"
+    ],
+    "seconds": 13.471599102020264,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block216"
+    ],
+    "seconds": 13.828224658966064,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block224"
+    ],
+    "seconds": 13.78351616859436,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block232"
+    ],
+    "seconds": 13.522969245910645,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block240"
+    ],
+    "seconds": 12.376818895339966,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_worst_dnl_block248"
+    ],
+    "seconds": 12.75002670288086,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block000"
+    ],
+    "seconds": 12.71274709701538,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block008"
+    ],
+    "seconds": 12.985290765762329,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block016"
+    ],
+    "seconds": 12.567573070526123,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block024"
+    ],
+    "seconds": 13.007736921310425,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block032"
+    ],
+    "seconds": 12.757268905639648,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block040"
+    ],
+    "seconds": 14.1134192943573,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block048"
+    ],
+    "seconds": 14.128417491912842,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block056"
+    ],
+    "seconds": 14.49856448173523,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block064"
+    ],
+    "seconds": 13.676177978515625,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block072"
+    ],
+    "seconds": 14.00494647026062,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block080"
+    ],
+    "seconds": 13.942935466766357,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block088"
+    ],
+    "seconds": 12.974277973175049,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block096"
+    ],
+    "seconds": 12.49218487739563,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block104"
+    ],
+    "seconds": 12.95913553237915,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block112"
+    ],
+    "seconds": 12.721526145935059,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block120"
+    ],
+    "seconds": 12.588251113891602,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block128"
+    ],
+    "seconds": 12.545375108718872,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block136"
+    ],
+    "seconds": 13.766965627670288,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block144"
+    ],
+    "seconds": 13.945703029632568,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block152"
+    ],
+    "seconds": 13.950186491012573,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block160"
+    ],
+    "seconds": 13.786921977996826,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block168"
+    ],
+    "seconds": 14.119409084320068,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block176"
+    ],
+    "seconds": 13.950888633728027,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block184"
+    ],
+    "seconds": 12.859217166900635,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block192"
+    ],
+    "seconds": 12.86653733253479,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block200"
+    ],
+    "seconds": 13.134788036346436,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block208"
+    ],
+    "seconds": 12.871545314788818,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block216"
+    ],
+    "seconds": 12.849471092224121,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block224"
+    ],
+    "seconds": 12.559202432632446,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block232"
+    ],
+    "seconds": 12.530708312988281,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block240"
+    ],
+    "seconds": 12.331346035003662,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1027_block248"
+    ],
+    "seconds": 12.583995342254639,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block000"
+    ],
+    "seconds": 12.059988260269165,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block008"
+    ],
+    "seconds": 12.389061212539673,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block016"
+    ],
+    "seconds": 12.425185918807983,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block024"
+    ],
+    "seconds": 13.585176229476929,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block032"
+    ],
+    "seconds": 13.634410858154297,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block040"
+    ],
+    "seconds": 13.846232414245605,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block048"
+    ],
+    "seconds": 13.720763921737671,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block056"
+    ],
+    "seconds": 13.637600183486938,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block064"
+    ],
+    "seconds": 13.517137050628662,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block072"
+    ],
+    "seconds": 12.725156307220459,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block080"
+    ],
+    "seconds": 12.836928844451904,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block088"
+    ],
+    "seconds": 13.000751495361328,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block096"
+    ],
+    "seconds": 12.605675458908081,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block104"
+    ],
+    "seconds": 12.726930141448975,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block112"
+    ],
+    "seconds": 12.745698690414429,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block120"
+    ],
+    "seconds": 13.913681745529175,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block128"
+    ],
+    "seconds": 13.482471227645874,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block136"
+    ],
+    "seconds": 13.978258609771729,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block144"
+    ],
+    "seconds": 13.927438735961914,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block152"
+    ],
+    "seconds": 13.963281869888306,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block160"
+    ],
+    "seconds": 13.784163236618042,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block168"
+    ],
+    "seconds": 12.027515888214111,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block176"
+    ],
+    "seconds": 11.99856185913086,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block184"
+    ],
+    "seconds": 12.176147937774658,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block192"
+    ],
+    "seconds": 12.264713764190674,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block200"
+    ],
+    "seconds": 12.337684631347656,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block208"
+    ],
+    "seconds": 12.286933898925781,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block216"
+    ],
+    "seconds": 11.77964162826538,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block224"
+    ],
+    "seconds": 11.56439208984375,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block232"
+    ],
+    "seconds": 11.736454725265503,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block240"
+    ],
+    "seconds": 12.838219165802002,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/qualify.py",
+      "run",
+      "--name",
+      "full_mc_1026_block248"
+    ],
+    "seconds": 11.219343900680542,
+    "returncode": 0
+  }
+]

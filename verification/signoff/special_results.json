@@ -1,0 +1,141 @@
+[
+  {
+    "name": "powerup",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "raw_error_lsb": 0.028237531428568934,
+    "passes_0p5lsb": true,
+    "supply_ramp_us": 10,
+    "reference_ramp_end_us": 15,
+    "sequence_start_us": 20,
+    "initial_state": "UIC zero stored voltages"
+  },
+  {
+    "name": "step_tt_1.8_27_5",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "tt",
+    "supply_v": 1.8,
+    "temp_c": 27,
+    "load_pf": 5,
+    "steps": [
+      {
+        "direction": "up",
+        "settling_0p5lsb_us": 1.32238587,
+        "overshoot_mv": 0.0,
+        "final_v": 0.899972359
+      },
+      {
+        "direction": "down",
+        "settling_0p5lsb_us": 1.2730382,
+        "overshoot_mv": -2.7755575615628914e-14,
+        "final_v": 0.20020796599999996
+      }
+    ],
+    "passes_3us": true
+  },
+  {
+    "name": "step_ss_1.62_-40_20",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "ss",
+    "supply_v": 1.62,
+    "temp_c": -40,
+    "load_pf": 20,
+    "steps": [
+      {
+        "direction": "up",
+        "settling_0p5lsb_us": 6.356623260000001,
+        "overshoot_mv": 247.9612044499999,
+        "final_v": 0.9001716455500002
+      },
+      {
+        "direction": "down",
+        "settling_0p5lsb_us": 1.5441306999999993,
+        "overshoot_mv": 0.5029609999999962,
+        "final_v": 0.19996530299999998
+      }
+    ],
+    "passes_3us": false
+  },
+  {
+    "name": "step_ff_1.98_-40_5",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "ff",
+    "supply_v": 1.98,
+    "temp_c": -40,
+    "load_pf": 5,
+    "steps": [
+      {
+        "direction": "up",
+        "settling_0p5lsb_us": 1.22431334,
+        "overshoot_mv": 0.0,
+        "final_v": 0.899907396
+      },
+      {
+        "direction": "down",
+        "settling_0p5lsb_us": 1.172641,
+        "overshoot_mv": 2.7755575615628914e-14,
+        "final_v": 0.20007251700000003
+      }
+    ],
+    "passes_3us": true
+  },
+  {
+    "name": "hold_tt_85_0",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "tt",
+    "temp_c": 85,
+    "code": 0,
+    "opposite_sample_kick_lsb": 0.335181361925854,
+    "hold_drift_50us_lsb": 0.0028533461781928998,
+    "hold_drift_98p9us_lsb": 0.005640536186147318
+  },
+  {
+    "name": "hold_tt_85_255",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "tt",
+    "temp_c": 85,
+    "code": 255,
+    "opposite_sample_kick_lsb": -0.3280702923823599,
+    "hold_drift_50us_lsb": -0.001143238351711976,
+    "hold_drift_98p9us_lsb": -0.0022415852573333594
+  },
+  {
+    "name": "hold_ff_85_0",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "ff",
+    "temp_c": 85,
+    "code": 0,
+    "opposite_sample_kick_lsb": 0.3352404279749521,
+    "hold_drift_50us_lsb": 0.003052668515479695,
+    "hold_drift_98p9us_lsb": 0.006032782502763163
+  },
+  {
+    "name": "hold_ff_85_255",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "corner": "ff",
+    "temp_c": 85,
+    "code": 255,
+    "opposite_sample_kick_lsb": -0.32803696702428303,
+    "hold_drift_50us_lsb": -0.0013113241248723692,
+    "hold_drift_98p9us_lsb": -0.002570002127697535
+  },
+  {
+    "name": "equivalence",
+    "gds_sha256": "efce3b66b1ce380e21becc94a6c70523c7269990198254b27dcbe6d7e679d306",
+    "netlist_sha256": "37552ff61c2aa6ffbdae603dc7450a877b3ab69719ba779948dca93ffadc16df",
+    "max_output_difference_uv": {
+      "numeric_25": 0.05972312999702467,
+      "model_full": 0.0,
+      "rc_unreduced": 0.006766012000669619
+    },
+    "same_seed_repeat_difference_uv": 0.0,
+    "passes": true
+  }
+]

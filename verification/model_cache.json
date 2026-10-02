@@ -1,0 +1,77 @@
+{
+  "pdk_source": "/foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice",
+  "pdk_library_sha256": "17c208a699228f5acb87bf59c09c22a4c4d3937b6766b4957737d34e8e075f64",
+  "method": "IIC OSIC sak-spice-model-red flattening, then remove unused subcircuit families; all global parameters and used-family bins preserved",
+  "corners": [
+    {
+      "corner": "tt",
+      "flat_bytes": 6088460,
+      "cached_bytes": 2496073,
+      "families": [
+        "sky130_fd_pr__cap_mim_m3_1",
+        "sky130_fd_pr__nfet_01v8",
+        "sky130_fd_pr__pfet_01v8",
+        "sky130_fd_pr__pfet_01v8_lvt",
+        "sky130_fd_pr__res_xhigh_po_0p35",
+        "sky130_fd_pr__res_xhigh_po__base"
+      ],
+      "sha256": "2377488feb3c1ef7bf62d2f1b091379e69f735fe5e12802d4d11b70d99276f4d"
+    },
+    {
+      "corner": "ss",
+      "flat_bytes": 6100148,
+      "cached_bytes": 2501127,
+      "families": [
+        "sky130_fd_pr__cap_mim_m3_1",
+        "sky130_fd_pr__nfet_01v8",
+        "sky130_fd_pr__pfet_01v8",
+        "sky130_fd_pr__pfet_01v8_lvt",
+        "sky130_fd_pr__res_xhigh_po_0p35",
+        "sky130_fd_pr__res_xhigh_po__base"
+      ],
+      "sha256": "9000fb43fe6b36140c085133ba0795df1f6794ee684f8a39d17651e53dd9deee"
+    },
+    {
+      "corner": "ff",
+      "flat_bytes": 6107684,
+      "cached_bytes": 2505299,
+      "families": [
+        "sky130_fd_pr__cap_mim_m3_1",
+        "sky130_fd_pr__nfet_01v8",
+        "sky130_fd_pr__pfet_01v8",
+        "sky130_fd_pr__pfet_01v8_lvt",
+        "sky130_fd_pr__res_xhigh_po_0p35",
+        "sky130_fd_pr__res_xhigh_po__base"
+      ],
+      "sha256": "7a9c91b4a04cbcd04cfaf1617ce711d1c924994dcd978e84ba0c4182a443a935"
+    },
+    {
+      "corner": "sf",
+      "flat_bytes": 6102344,
+      "cached_bytes": 2503709,
+      "families": [
+        "sky130_fd_pr__cap_mim_m3_1",
+        "sky130_fd_pr__nfet_01v8",
+        "sky130_fd_pr__pfet_01v8",
+        "sky130_fd_pr__pfet_01v8_lvt",
+        "sky130_fd_pr__res_xhigh_po_0p35",
+        "sky130_fd_pr__res_xhigh_po__base"
+      ],
+      "sha256": "c02482a3089d7554b9f04d6513250c6a8ffc46c3f6e575d98730f75ef802f705"
+    },
+    {
+      "corner": "fs",
+      "flat_bytes": 6098224,
+      "cached_bytes": 2502498,
+      "families": [
+        "sky130_fd_pr__cap_mim_m3_1",
+        "sky130_fd_pr__nfet_01v8",
+        "sky130_fd_pr__pfet_01v8",
+        "sky130_fd_pr__pfet_01v8_lvt",
+        "sky130_fd_pr__res_xhigh_po_0p35",
+        "sky130_fd_pr__res_xhigh_po__base"
+      ],
+      "sha256": "6c5de360b465bdae9ec0fdef1dc7e0a96a3d0c4b4e37f5bbda599f2864b63177"
+    }
+  ]
+}

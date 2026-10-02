@@ -1,0 +1,4 @@
+[INFO] Running PEX of </foss/designs/outputs/suarez_dac/gds/tt_um_jonah_suarez_dac.gds>.
+[INFO] Results are put into </foss/designs/outputs/suarez_dac/build/pex2>.
+[INFO] PEX (C-coupled) done, the extracted SPICE netlist is </foss/designs/outputs/suarez_dac/build/pex2/tt_um_jonah_suarez_dac.pex.spice>.
+[DONE] Bye!

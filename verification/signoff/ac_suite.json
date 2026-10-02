@@ -1,0 +1,2402 @@
+[
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.0702638626098633,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.3543717861175537,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.1217598915100098,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.04971981048584,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.540036916732788,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.2854790687561035,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.1970090866088867,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.2549498081207275,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.297987699508667,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.0548670291900635,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.269768238067627,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.2628228664398193,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.371778249740601,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.427523851394653,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.337375164031982,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.109529256820679,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.4239084720611572,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.443923234939575,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.3820855617523193,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.4057884216308594,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.879066228866577,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.8276307582855225,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.885873794555664,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "tt",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.731987237930298,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.063539028167725,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.138691186904907,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.093998670578003,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.804544448852539,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.7613625526428223,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.760237693786621,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.548642158508301,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.7617735862731934,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.5159473419189453,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.4481406211853027,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.64640736579895,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.2623112201690674,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.212245464324951,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.2034974098205566,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.453019857406616,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.1958649158477783,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.241850137710571,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.525786399841309,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.057492017745972,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.482361555099487,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.48470664024353,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.428978681564331,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.413439512252808,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ss",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.367974281311035,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.213431119918823,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.478988170623779,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.533792495727539,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.193316221237183,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.689736604690552,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.666804075241089,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.307733774185181,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.368211984634399,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.6760542392730713,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.613083600997925,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.617583990097046,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.708733320236206,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.6698384284973145,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.9977734088897705,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.262798309326172,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.899791240692139,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.153702259063721,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.96407413482666,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.743391513824463,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.7257919311523438,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.015703201293945,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.85288667678833,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.808440685272217,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "ff",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.9491019248962402,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.8674726486206055,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.589995861053467,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.6205554008483887,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.5979886054992676,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.574447870254517,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.8591508865356445,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.835494756698608,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.83955192565918,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.7737996578216553,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.643780469894409,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.7190399169921875,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.5527727603912354,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.951617002487183,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.146796464920044,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.230515480041504,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.226460695266724,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.047305583953857,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.932319402694702,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.5738871097564697,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.7810781002044678,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.236150026321411,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.315492153167725,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.279394149780273,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "sf",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.319663047790527,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.263167858123779,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.305473566055298,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.270562410354614,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.17427134513855,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 6.3388566970825195,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 6.007545232772827,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 6.024791240692139,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 6.28480076789856,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.2329747676849365,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.962394952774048,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.749679327011108,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.62",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.123946189880371,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.249570608139038,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.0504560470581055,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.055372476577759,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 3.8524179458618164,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.1094279289245605,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "-40",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.193863153457642,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.15040135383606,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.350308179855347,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "5",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.7678306102752686,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.2",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.611878395080566,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.55",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 5.066203594207764,
+    "returncode": 0
+  },
+  {
+    "command": [
+      "/foss/tools/bin/python3",
+      "/foss/designs/outputs/suarez_dac/scripts/buffer_ac.py",
+      "--corner",
+      "fs",
+      "--supply",
+      "1.98",
+      "--temp",
+      "85",
+      "--load",
+      "20",
+      "--vin",
+      "0.9",
+      "--netlist",
+      "/foss/designs/outputs/suarez_dac/netlist/tt_um_jonah_suarez_dac.rc.spice"
+    ],
+    "seconds": 4.6189470291137695,
+    "returncode": 0
+  }
+]
